@@ -28,3 +28,5 @@ window.openTab = openTab;
 leftRail();
 // Main
 displayArt(data);
+
+console.log(data.length);
