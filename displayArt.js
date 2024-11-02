@@ -1,6 +1,4 @@
 export function displayArt(arts) {
-  const containerArt = document.querySelector('.artwork');
-
   const artList = document.querySelector('.art-list');
   const first = document.querySelector('.first');
   const prev = document.querySelector('.previous');
@@ -9,8 +7,6 @@ export function displayArt(arts) {
 
   let arrayList = [];
   let page = 0;
-  const countPages = Math.ceil(arts.length / 10);
-  console.log(countPages);
 
   arts.forEach((art, i) => {
     let li = document.createElement('li');
@@ -25,7 +21,8 @@ export function displayArt(arts) {
   }
 
   next.addEventListener('click', function () {
-    page < countPages ? (page += 10) : (page += 0);
+    page <= 0 ? (page += 10) : (page = 0);
+    // page <= arrayList.length - 10 ? (page += 10) : (page += 0);
     artList.innerHTML = '';
     for (let i = page; i < page + 10; i++) {
       artList.appendChild(arrayList[i]);
@@ -33,7 +30,7 @@ export function displayArt(arts) {
   });
 
   prev.addEventListener('click', function () {
-    page > 0 ? (page -= 10) : (page += 0);
+    page >= 0 ? (page = 0) : (page -= 10);
     artList.innerHTML = '';
     for (let i = page; i < page + 10; i++) {
       artList.appendChild(arrayList[i]);
@@ -49,12 +46,10 @@ export function displayArt(arts) {
   });
 
   last.addEventListener('click', function () {
-    page = countPages;
+    page = arrayList.length - 10;
     artList.innerHTML = '';
     for (let i = page; i < page + 10; i++) {
       artList.appendChild(arrayList[i]);
     }
   });
-
-  console.log();
 }
