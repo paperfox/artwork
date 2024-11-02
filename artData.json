@@ -1,13 +1,53 @@
 [
   {
-    "title": "Corvus Research Project",
-    "date": "Aug 12, 2008",
-    "desc": "commissioned piece of a raven with a holding a quill pen",
-    "dimensions": "4x4 inches",
+    "title": "Sunset on the Cosmos",
+    "date": "Mar 4, 2009",
+    "desc": "watercolor fox running along a horizon with a sunset and stars in the background",
+    "dimensions": "10x14 inches",
     "media": "",
     "content": "",
     "forSale": false,
-    "link": "helping_the_honey_bee.jpg"
+    "link": "sunset_on_the_cosmos.jpg"
+  },
+  {
+    "title": "Christmas in the Woods",
+    "date": "Dec 12, 2008",
+    "desc": "watercolor and micron pen of a fox in a harness with jingle bells pulling a sleigh in the snow talking to a rabbit",
+    "dimensions": "2.5x3.5 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "christmas_in_the_woods.jpg"
+  },
+  {
+    "title": "Time to Decorate",
+    "date": "Dec 11, 2008",
+    "desc": "watercolor and micron pen of a cattle dog wearing a santa hat sitting next to a christmas tree",
+    "dimensions": "2.5x3.5 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "time_to_decorate.jpg"
+  },
+  {
+    "title": "Littlest Helper",
+    "date": "Dec 10, 2008",
+    "desc": "watercolor and micron pen of a hamster holding holly berries and leaves on a shelf",
+    "dimensions": "2.5x3.5 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "littlest_helper.jpg"
+  },
+  {
+    "title": "A Gift",
+    "date": "Nov 3, 2008",
+    "desc": "acrylic painting of a naga holding a scroll in a cave with decorative columns and a stream",
+    "dimensions": "12x16 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "a_gift.jpg"
   },
   {
     "title": "Corvus Research Project",
@@ -20,6 +60,16 @@
     "link": "corvus_research_project.jpg"
   },
   {
+    "title": "Keeper of the Valley",
+    "date": "Jul 31, 2008",
+    "desc": "colored pencil and micron pen skeletal wolf with exposed muscles and a valley in the background",
+    "dimensions": "8.5x11 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "keeper_of_the_valley.jpg"
+  },
+  {
     "title": "Helping the Honey Bee",
     "date": "Jun 27, 2008",
     "desc": "rabbit holding a flower for a bee",
@@ -28,16 +78,6 @@
     "content": "",
     "forSale": false,
     "link": "helping_the_honey_bee.jpg"
-  },
-  {
-    "title": "Laughing Demon",
-    "date": "May 28, 2008",
-    "desc": "sculpture of a demonic wolf laughing",
-    "dimensions": "4x4 inches",
-    "media": "",
-    "content": "",
-    "forSale": false,
-    "link": "laughing_demon.jpg"
   },
   {
     "title": "Laughing Demon",

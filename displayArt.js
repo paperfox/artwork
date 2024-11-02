@@ -9,6 +9,7 @@ export function displayArt(arts) {
   let page = 0;
 
   const pageCount = Math.ceil(arts.length / 10);
+  console.log(pageCount);
 
   const paginator = () => {
     artList.innerHTML = '';
@@ -19,9 +20,10 @@ export function displayArt(arts) {
 
   arts.forEach((art, i) => {
     let li = document.createElement('li');
-    li.innerHTML = `<div class="artpiece-${i}">
-              <img src="art/${art.link}" alt="${art.title}: ${art.desc}" />
-            </div>`;
+    li.innerHTML = `
+      <div class="artpiece-${i}">
+        <img src="art/${art.link}" alt="${art.title}: ${art.desc}" />
+      </div>`;
     arrayList.push(li);
   });
 
@@ -30,14 +32,15 @@ export function displayArt(arts) {
   }
 
   next.addEventListener('click', function () {
-    // page <= 0 ? (page += 10) : (page = 0);
-    // page !== arrayList.length - 10 ? (page += 10) : (page += 0);
-    page <= arrayList.length - 10 ? (page += 10) : (page += 0);
+    page <= pageCount ? (page += 10) : (page = arrayList.length - 10);
+    // the above shows the last 10 when the user hits the last page which isn't ideal
+    // but it fixes my console error and it's ok for now
     paginator();
   });
 
   prev.addEventListener('click', function () {
-    page >= 0 ? (page = 0) : (page -= 10);
+    page <= 0 ? (page = 0) : (page -= 10);
+    // page === 0 ? (page += 10) : (page = arrayList.length - 10);
     paginator();
   });
 
