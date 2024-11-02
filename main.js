@@ -15,6 +15,7 @@ export function openTab(evt, tabName) {
   document.getElementById(tabName).className += " active";
   evt.currentTarget.className += " active";
 }
+window.openTab = openTab;
 
 // openTab();
 // Left rail
