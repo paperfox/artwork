@@ -1,0 +1,104 @@
+[
+  {
+    "title": "Open road",
+    "date": "Nov 21, 2007",
+    "desc": "pencil drawing of a motorcycle",
+    "media": "",
+    "content": "",
+    "link": "open_road.jpg"
+  },
+  {
+    "title": "Somewhere on the line",
+    "date": "Nov 21, 2007",
+    "desc": "Marker drawing of a vw cabrio",
+    "media": "",
+    "content": "",
+    "link": "somewhere_on_the_line.jpg"
+  },
+  {
+    "title": "Flight of the Phoenix",
+    "date": "Aug 14, 2006",
+    "desc": "Mixed media phoenix",
+    "media": "",
+    "content": "",
+    "link": "flight_of_the_phoenix.jpg"
+  },
+  {
+    "title": "If Only I Could Fly",
+    "date": "Feb 22, 2006",
+    "desc": "An ocelot with wings",
+    "media": "",
+    "content": "",
+    "link": "if_only_i_could_fly.png"
+  },
+  {
+    "title": "Raining in my dreams",
+    "date": "Dec 5, 2007",
+    "desc": "micron pen and digial art of an octopus pirate with an eyepatch and a sword with the text 'no mercy' ",
+    "dimensions": "4x5 feet",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "raining_in_my_dreams.jpg"
+  },
+  {
+    "title": "No Mercy",
+    "date": "Dec 5, 2007",
+    "desc": "micron pen and digial art of an octopus pirate with an eyepatch and a sword with the text 'no mercy' ",
+    "dimensions": "3x4 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "no_mercy.png"
+  },
+  {
+    "title": "Dream it",
+    "date": "Nov 21, 2007",
+    "desc": "pencil drawing of a corvette",
+    "dimensions": "8.5x11 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "dream_it__draw_it__live_it.jpg"
+  },
+  {
+    "title": "Open road",
+    "date": "Nov 21, 2007",
+    "desc": "pencil drawing of a motorcycle",
+    "dimensions": "8.5x11 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "open_road.jpg"
+  },
+  {
+    "title": "Somewhere on the line",
+    "date": "Nov 21, 2007",
+    "desc": "Marker drawing of a vw cabrio",
+    "dimensions": "1.5x2 feet",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "somewhere_on_the_line.jpg"
+  },
+  {
+    "title": "Flight of the Phoenix",
+    "date": "Aug 14, 2006",
+    "desc": "Mixed media phoenix",
+    "dimensions": "2x2 feet",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "flight_of_the_phoenix.jpg"
+  },
+  {
+    "title": "If Only I Could Fly",
+    "date": "Feb 22, 2006",
+    "desc": "An ocelot with wings",
+    "dimensions": "8x10 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "if_only_i_could_fly.png"
+  }
+]

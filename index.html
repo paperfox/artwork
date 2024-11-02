@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <script type="module" src="/main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="left-rail"></nav>
+    <main>
+      <ul class="nav-tabs">
+        <li>
+          <button class="tab-control" onclick="openTab(event, 'artTab')">
+            Artwork
+          </button>
+        </li>
+        <li>
+          <button class="tab-control" onclick="openTab(event, 'sketchTab')">
+            Sketchbook
+          </button>
+        </li>
+      </ul>
+      <div class="tab-content active" id="artTab">
+        <details>
+          <summary>
+            Filters
+            <span class="icon">↓</span>
+          </summary>
+          <div class="filters">
+            <div>
+              <h3>Date</h3>
+              <p>Current Year</p>
+              <p>2023</p>
+              <p>2020 - Current</p>
+            </div>
+            <div>
+              <h3>Media</h3>
+              <p>Watercolor</p>
+              <p>Ink</p>
+              <p>Printmaking</p>
+              <p>Woodblock</p>
+              <p>Linocut</p>
+              <p>Acrylic</p>
+              <p>Oil</p>
+              <p>Markers</p>
+              <p>Colored Pencils</p>
+            </div>
+            <div>
+              <h3>Content</h3>
+              <p>Animals</p>
+              <p>Fantasy</p>
+              <p>Fan Art</p>
+              <p>Landscapes</p>
+              <p>People</p>
+              <p>Vehicles</p>
+            </div>
+          </div>
+        </details>
+        <div class="artwork"></div>
+      </div>
+      <div class="tab-content" id="sketchTab"><p>Sketchbook goes here</p></div>
+    </main>
+  </body>
+</html>
