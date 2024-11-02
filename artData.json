@@ -1,35 +1,54 @@
 [
   {
-    "title": "Open road",
-    "date": "Nov 21, 2007",
-    "desc": "pencil drawing of a motorcycle",
+    "title": "Time For Bed, Mr.Demon",
+    "date": "Apr 22, 2008",
+    "desc": "sculpture of a little girl dragging a demonic wolf to bed",
+    "dimensions": "6x12 inches",
     "media": "",
     "content": "",
-    "link": "open_road.jpg"
+    "forSale": false,
+    "link": "time_for_bed_mr_demon.jpg",
+    "additionalImages": ["raw_sculpture.png"]
   },
   {
-    "title": "Somewhere on the line",
-    "date": "Nov 21, 2007",
-    "desc": "Marker drawing of a vw cabrio",
+    "title": "The Pharoah's Daughter",
+    "date": "Mar 16, 2008",
+    "desc": "micron pen, colored pencil, and marker of an anthropomorphic cat/wolf in egyptian garb",
+    "dimensions": "8.5x11 inches",
     "media": "",
     "content": "",
-    "link": "somewhere_on_the_line.jpg"
+    "forSale": false,
+    "link": "the_pharaoh_s_daughter.jpg"
   },
   {
-    "title": "Flight of the Phoenix",
-    "date": "Aug 14, 2006",
-    "desc": "Mixed media phoenix",
+    "title": "Volatile",
+    "date": "Mar 6, 2008",
+    "desc": "colored pencil on black paper artwork of radioactive wolf in a lava landscape",
+    "dimensions": "8.5x11 inches",
     "media": "",
     "content": "",
-    "link": "flight_of_the_phoenix.jpg"
+    "forSale": false,
+    "link": "volatile.jpg"
   },
   {
-    "title": "If Only I Could Fly",
-    "date": "Feb 22, 2006",
-    "desc": "An ocelot with wings",
+    "title": "The Jester",
+    "date": "Mar 1, 2008",
+    "desc": "micron pen, colored pencil, marker, and collage artwork of a mythical wolf and butterfly hybrid",
+    "dimensions": "14x18 inches",
     "media": "",
     "content": "",
-    "link": "if_only_i_could_fly.png"
+    "forSale": false,
+    "link": "the_jester.jpg"
+  },
+  {
+    "title": "Lady Levye",
+    "date": "Feb 8, 2008",
+    "desc": "micron pen, colored pencil, and marker drawing of a jackalope in peach and gray colors",
+    "dimensions": "4x4 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "lady_levye.jpg"
   },
   {
     "title": "Raining in my dreams",
@@ -80,6 +99,16 @@
     "content": "",
     "forSale": false,
     "link": "somewhere_on_the_line.jpg"
+  },
+  {
+    "title": "Goddess of the Sea",
+    "date": "Nov 21, 2007",
+    "desc": "watercolor painting of a anthropomorphic wolf painting in the sea",
+    "dimensions": "8.5x11 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "goddess_of_the_sea.jpg"
   },
   {
     "title": "Flight of the Phoenix",

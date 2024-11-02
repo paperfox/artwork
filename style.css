@@ -39,7 +39,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   font-size: 1.6rem;
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-weight: 500;
 }
 
@@ -65,8 +65,7 @@ main {
   overflow-y: auto;
   padding: 0.8rem;
 }
-
-.artpiece {
+[class*='artpiece-'] {
   display: inline-block;
   padding: 0.8rem;
 
@@ -100,13 +99,15 @@ main {
   justify-content: space-between;
 }
 
-.nav-tabs {
+.nav-tabs,
+.pagination-controller {
   display: flex;
   justify-content: space-between;
   padding: 0.8rem;
   list-style: none;
 
-  .tab-control {
+  .tab-control,
+  .pagination-control {
     padding: 0.8rem;
     border: 1px solid #000;
     border-radius: 0.4rem;

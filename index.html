@@ -66,15 +66,36 @@
         </details>
         <div class="artwork"></div>
       </div>
-      <div class="tab-content" id="sketchTab"><p>Sketchbook goes here</p>
+      <div class="tab-content" id="sketchTab">
+        <!-- <p>Sketchbook goes here</p> -->
         <div class="pagination">
-          <div class="paginaton-content active" id="pageOne"></div>
-          <div class="paginaton-content" id="pageTwo"></div>
-            <ul class="pagination-controller">
-              <li><button class="pagination-control active" onclick="pagination(event, 'pageOne')">Page 1</button></li>
-              <li><button class="pagination-control" onclick="pagination(event, 'pageTwo')">Page 2</button></li>
-              <li><button class="pagination-control" onclick="pagination(event, 'pageThree')">Page 3</button></li>
-            </ul>
+          <div class="paginaton-content" id="pageOne"></div>
+          <ul class="pagination-controller">
+            <li>
+              <button
+                class="pagination-control active"
+                onclick="pagination(event, 'pageOne')"
+              >
+                Page 1
+              </button>
+            </li>
+            <li>
+              <button
+                class="pagination-control"
+                onclick="pagination(event, 'pageTwo')"
+              >
+                Page 2
+              </button>
+            </li>
+            <li>
+              <button
+                class="pagination-control"
+                onclick="pagination(event, 'pageThree')"
+              >
+                Page 3
+              </button>
+            </li>
+          </ul>
         </div>
       </div>
     </main>
