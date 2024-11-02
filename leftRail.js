@@ -20,6 +20,11 @@ export function leftRail() {
           her art is the joy of making, so she’s yet to settle down on just one
           style.
         </p>
+        <p>
+        If she's not working on some art or adding something new to her
+        <a href="https://paperfox.github.io/tarot/">Tarot App</a>, you'll likely find her playing
+      with her dog, or out in her garden.
+        </p>
       </div>
       <ul class="social-links">
         <li class="m-3">
