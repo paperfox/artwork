@@ -79,6 +79,7 @@ main {
   display: inline-block;
   padding: 0.8rem;
 
+  &,
   img {
     height: 21rem;
   }
@@ -136,4 +137,6 @@ main {
   display: block;
 }
 
-.art-list { padding: 0; }
+.art-list {
+  padding: 0;
+}

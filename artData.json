@@ -1,11 +1,111 @@
 [
   {
+    "title": "Mountain Zebra",
+    "date": "Oct 30, 2024",
+    "desc": "Watercolor painting of a Mountain Zebra in gray and red, imitating flames and smoke.",
+    "dimensions": "6x9 inches",
+    "media": ["watercolor", "painting"],
+    "content": ["zebra", "animal"],
+    "forSale": false,
+    "link": "mountain_zebra.jpg"
+  },
+  {
+    "title": "Mountain Zebra Line Art",
+    "date": "Oct 29, 2024",
+    "desc": "Digital line art of a Mountain Zebra.",
+    "dimensions": "5x5 inches",
+    "media": ["digital"],
+    "content": ["zebra", "animal"],
+    "forSale": false,
+    "link": "mountain_zebra_lines.png"
+  },
+  {
+    "title": "Takahe",
+    "date": "Oct 28, 2024",
+    "desc": "Micron pen and watercolor of a takahe, a flightless blue-green bird, in a dancing pose.",
+    "dimensions": "3x4 inches",
+    "media": ["watercolor", "painting", "micron pen", "ink"],
+    "content": ["bird", "animal"],
+    "forSale": false,
+    "link": "takahe.jpg"
+  },
+  {
+    "title": "Giant Panda",
+    "date": "Oct 28, 2024",
+    "desc": "Micron pen and watercolor of a panda sleeping on a crescent moon with 4 swords hanging below them.",
+    "dimensions": "6x9 inches",
+    "media": ["watercolor", "painting", "micron pen", "ink"],
+    "content": ["panda", "animal"],
+    "forSale": false,
+    "link": "giant_panda.jpg"
+  },
+  {
     "title": "Scottish Wildcat",
-    "date": "Jun 5, 2020",
-    "desc": "micron pen drawing of a scottish wildcat and a tree with a gold circle behind it.",
+    "date": "Oct 27, 2024",
+    "desc": "Micron pen line art of a panda sleeping on a crescent moon with 4 swords hanging below them.",
+    "dimensions": "6x9 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["panda", "animal"],
+    "forSale": false,
+    "link": "giant_panda_lines.jpg"
+  },
+  {
+    "title": "Bee",
+    "date": "Oct 5, 2020",
+    "desc": "micron pen drawing of a bee in a flower.",
     "dimensions": "8x10 inches",
     "media": "",
     "content": "",
+    "forSale": false,
+    "link": "bee.jpg"
+  },
+  {
+    "title": "Brown-eared Pheasant",
+    "date": "Oct 9, 2020",
+    "desc": "micron pen drawing of a Brown-eared Pheasant and a tree branch.",
+    "dimensions": "8x10 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "brown_eared_pheasant.jpg"
+  },
+  {
+    "title": "Balete Tree",
+    "date": "Oct 5, 2020",
+    "desc": "Ink painting of Balete Tree with birds and plants.",
+    "dimensions": "8x8 inches",
+    "media": ["ink"],
+    "content": ["tree", "landscape"],
+    "forSale": false,
+    "link": "balete_tree.jpg"
+  },
+  {
+    "title": "White Spotted Bush Frog",
+    "date": "Oct 5, 2020",
+    "desc": "micron pen drawing of a White Spotted Bush Frog on a leaf.",
+    "dimensions": "8.5x11 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["frog", "animal"],
+    "forSale": false,
+    "link": "white_spotted_bush_frog.jpg"
+  },
+  {
+    "title": "Slender Snouted Crocodile",
+    "date": "Oct 3, 2020",
+    "desc": "Micron pen and ink of a crocodile swimming in water.",
+    "dimensions": "8x8 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["crocodile", "animal"],
+    "forSale": false,
+    "link": "slender_snouted_crocodile.jpg"
+  },
+  {
+    "title": "Scottish Wildcat",
+    "date": "Oct 2, 2020",
+    "desc": "micron pen drawing of a scottish wildcat and a tree with a gold circle behind it.",
+    "dimensions": "8x10 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["cat", "animal"],
     "forSale": false,
     "link": "scottish_wildcat.jpg"
   },

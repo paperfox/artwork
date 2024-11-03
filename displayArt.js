@@ -12,6 +12,8 @@ export function displayArt(arts) {
   const pageCount = Math.ceil(arts.length / paginationValue);
   console.log(pageCount);
 
+  document.querySelector('.page-total').textContent = `${pageCount} Pages`;
+
   const paginator = () => {
     artList.innerHTML = '';
     for (let i = page; i < page + paginationValue; i++) {
@@ -24,7 +26,6 @@ export function displayArt(arts) {
     li.innerHTML = `
       <div class="artpiece-${i}">
         <img src="art/${art.link}" alt="${art.title}: ${art.desc}" />
-        <p>${i}</p>
       </div>`;
     arrayList.push(li);
   });
@@ -34,12 +35,14 @@ export function displayArt(arts) {
   }
 
   next.addEventListener('click', function () {
-page === arrayList.length - paginationValue ? (page = arrayList.length - paginationValue) : (page+= paginationValue)
+    page === arrayList.length - paginationValue
+      ? (page = arrayList.length - paginationValue)
+      : (page += paginationValue);
     paginator();
   });
 
   prev.addEventListener('click', function () {
-    page <= 0 ? (page = 0) : (page -= paginationValue);
+    page === 0 ? (page = 0) : (page -= paginationValue);
     paginator();
   });
 
