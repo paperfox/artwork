@@ -32,6 +32,7 @@ export function displayArt(arts) {
   }
 
   next.addEventListener('click', function () {
+    // page === arrayList.length - 10 ? (page = 0) : (page+= 10)
     page <= pageCount ? (page += 10) : (page = arrayList.length - 10);
     // the above shows the last 10 when the user hits the last page which isn't ideal
     // but it fixes my console error and it's ok for now
@@ -40,7 +41,7 @@ export function displayArt(arts) {
 
   prev.addEventListener('click', function () {
     page <= 0 ? (page = 0) : (page -= 10);
-    // page === 0 ? (page += 10) : (page = arrayList.length - 10);
+    // page === 0 ? (page = arrayList.length - 10) : (page-= 10)
     paginator();
   });
 
@@ -54,3 +55,37 @@ export function displayArt(arts) {
     paginator();
   });
 }
+
+
+
+// next.addEventListener('click', function() {
+//   page === arrayList.length - 10 ? (page = 0) : (page+= 10)
+//   taskList.innerHTML = '';
+//   for (let i = page; i < page+ 10; i++) {
+//     taskList.appendChild(arrayList[i])
+//   }
+// });
+
+// prev.addEventListener('click', function() {
+//   page === 0 ? (page = arrayList.length - 10) : (page-= 10)
+//   taskList.innerHTML = '';
+//   for (let i = page; i < page + 10; i++) {
+//     taskList.appendChild(arrayList[i])
+//   }
+// });
+
+// first.addEventListener('click', function() {
+//   page = 0;
+//   taskList.innerHTML = '';
+//   for (let i = page; i < page + 10; i++) {
+//     taskList.appendChild(arrayList[i])
+//   }
+// });
+
+// last.addEventListener('click', function() {
+//   page = arrayList.length - 10
+//   taskList.innerHTML = '';
+//   for (let i = page; i < page + 10; i++) {
+//     taskList.appendChild(arrayList[i])
+//   }
+// });

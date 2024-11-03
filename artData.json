@@ -1,5 +1,268 @@
 [
   {
+    "title": "Shepherds of Love",
+    "date": "Jan 23, 2015",
+    "desc": "micron pen and watercolor painting of two german shepherd puppies touching noses and paws to make a heart",
+    "dimensions": "8x18 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "shepherds_of_love.jpg"
+  },
+  {
+    "title": "Rudy",
+    "date": "Dec 24, 2014",
+    "desc": "acrylic painting of a catahoula/pointer mix dog in white, blue, and orange",
+    "dimensions": "6x9 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "rudy.jpg"
+  },
+  {
+    "title": "Noble Steed",
+    "date": "Jan 27, 2015",
+    "desc": "micron and watercolor of a white jindo with a black and white rabbit riding on it with a castle in the background",
+    "dimensions": "6x9 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "noble_steed.jpg"
+  },
+  {
+    "title": "Dog Alphabet",
+    "date": "May 8, 2011",
+    "desc": "Letterpress print of an alphabet where every letter is a dog breed that starts with that letter",
+    "dimensions": "6x9 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "dog_alphabet.jpg"
+  },
+  {
+    "title": "Spiderdog",
+    "date": "Jan 23, 2015",
+    "desc": "micron pen and watercolor of dog dressed as spiderman climbing a tree",
+    "dimensions": "6x9 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "spiderdog.jpg"
+  },
+  {
+    "title": "Puppy Love",
+    "date": "Jan 11, 2015",
+    "desc": "digital piece of two white jindos lying together creating a heart shape in the snow with a tennis ball at the point of the heart",
+    "dimensions": "6x9 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "puppy_love.png"
+  },
+  {
+    "title": "Finnley's Treasure",
+    "date": "Jan 20, 2015",
+    "desc": "Woodblock print of a jindo standing with a blue sky with happy clouds and dragon flies behind him",
+    "dimensions": "6x9 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "finnley_s_treasure.jpg"
+  },
+  {
+    "title": "The Researcher",
+    "date": "Jan 11, 2015",
+    "desc": "watercolor and micron pen drawing of a dog sitting on a chair wearing a tie with a magazine on the desk",
+    "dimensions": "8x10 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "the_researcher.jpg"
+  },
+  {
+    "title": "Dodger",
+    "date": "Jan 13, 2015",
+    "desc": "watercolor and micron portrait of little fluffy mixed breed dog with a tennis ball next to him",
+    "dimensions": "2.5x3.5 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "dodger.jpg"
+  },
+  {
+    "title": "Lil Jindo Pet Portrait",
+    "date": "Jan 12, 2015",
+    "desc": "watercolor and micron pen full body pet portrait of a white jindo lying on the grass",
+    "dimensions": "9x12 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "lil_jindo_pet_portrait.jpg"
+  },
+  {
+    "title": "Goji Pet Portrait",
+    "date": "Jan 11, 2015",
+    "desc": "watercolor and micron pen full body pet portrait of a white jindo shiba inu mix lying on a purple rug and blanket",
+    "dimensions": "9x12 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "goji_pet_portrait.jpg"
+  },
+  {
+    "title": "Akasha",
+    "date": "Jul 24, 2010",
+    "desc": "colored pencil portrait of a long haired cat",
+    "dimensions": "9x12 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "akasha.jpg",
+    "additionalImages": ["akasha_sketch.jpg"]
+  },
+  {
+    "title": "Family Canidae Poster",
+    "date": "May 2, 2010",
+    "desc": "colored pencil drawing of a ferrari f430",
+    "dimensions": "9x12 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "family_canidae_poster.jpg",
+    "additionalImages": ["family_canidae_goods.jpg"]
+  },
+  {
+    "title": "Nightsong",
+    "date": "Jan 14, 2010",
+    "desc": "sculpture of an anthropomorphic gray wolf woman with gold upper arm bands, a scar across her left eye that goes down her body, and a knee pad",
+    "dimensions": "9x12 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "nightsong_commission.jpg"
+  },
+  {
+    "title": "Unfinished Red Wolf",
+    "date": "Dec 8, 2009",
+    "desc": "Unfinished colored pencil drawing of a red wolf",
+    "dimensions": "9x12 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "unfinished_idea.jpg"
+  },
+  {
+    "title": "Copper Phoenix",
+    "date": "Dec 8, 2009",
+    "desc": "sculpture of a copper colored phoenix",
+    "dimensions": "8x8 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "copper_phoenix.jpg"
+  },
+  {
+    "title": "Red",
+    "date": "Nov 19, 2009",
+    "desc": "sculpture of a red wolf",
+    "dimensions": "3x5 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "red_sculpture.jpg",
+    "additionalImages": ["red_sculpture_more_angles.jpg"]
+  },
+  {
+    "title": "F430",
+    "date": "Nov 7, 2009",
+    "desc": "colored pencil drawing of a ferrari f430",
+    "dimensions": "9x12 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "f430.jpg"
+  },
+  {
+    "title": "The Other Side",
+    "date": "Nov 7, 2009",
+    "desc": "watercolor and micron pen of a horse reaching it's head over a fence",
+    "dimensions": "9x12 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "the_other_side.jpg"
+  },
+  {
+    "title": "Classic",
+    "date": "Nov 1, 2009",
+    "desc": "watercolor and micron pen of a classic car",
+    "dimensions": "2.5x3.5 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "classic.jpg"
+  },
+  {
+    "title": "Sally Lightfoot Crab",
+    "date": "Sep 30, 2009",
+    "desc": "colored pencil drawing of a sally lightfoot crab",
+    "dimensions": "9x12 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "sally_lightfoot_crab.jpg"
+  },
+  {
+    "title": "Portrait of a Mink",
+    "date": "Sep 21, 2009",
+    "desc": "watercolor of a mink skeleton facing the viewer",
+    "dimensions": "9x12 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "portrait_of_a_mink.jpg"
+  },
+  {
+    "title": "Mountain God",
+    "date": "Aug 15, 2009",
+    "desc": "sculpture of a cat with ram horns standing on rocks",
+    "dimensions": "10x5 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "mountain_god.jpg"
+  },
+  {
+    "title": "Herd Watching",
+    "date": "Jul 20, 2009",
+    "desc": "watercolor and micron pen of a border collie watching cows",
+    "dimensions": "2.5x3.5 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "herd_watching.jpg"
+  },
+  {
+    "title": "Soul",
+    "date": "Mar 18, 2009",
+    "desc": "watercolor painting of a blue butterfly escaping a cage",
+    "dimensions": "10x10 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "soul.jpg"
+  },
+  {
+    "title": "Jester and the Ninja",
+    "date": "Mar 18, 2009",
+    "desc": "Leather necklace with 2 cats playing",
+    "dimensions": "3 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "jester_and_the_ninja.jpg"
+  },
+  {
     "title": "Sunset on the Cosmos",
     "date": "Mar 4, 2009",
     "desc": "watercolor fox running along a horizon with a sunset and stars in the background",
