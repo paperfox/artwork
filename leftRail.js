@@ -1,5 +1,5 @@
 export function leftRail() {
-  const containerArt = document.querySelector(".left-rail");
+  const containerArt = document.querySelector('.left-rail');
   const html = `
       <div>
         <h1>Paperfox</h1>
@@ -8,22 +8,17 @@ export function leftRail() {
       <div>
         <h3>About</h3>
         <p>
-          A lifetime creative, Nathalie Garfinkle sticks to painting the things
+          A lifetime creative, Nathalie sticks to painting the things
           she loves. This leads her across the map of wildlife to fantasy
           creatures, figures to landscapes, and most definitely some pet
           portraits. Her illustrative style draws inspiration from animation and
           the Japanese woodblock printing tradition, especially the Shin Hanga
           movement of the early 20th century. While she occasionally dabbles in
-          printmaking, both linocut and woodblock, the vast majority of her work
-          is in watercolor and ink. Most of her art boasts bold line art and
-          dynamic colors, but that’s no limiting factor. For Nathalie, the core of
-          her art is the joy of making, so she’s yet to settle down on just one
-          style.
-        </p>
-        <p>
-        If she's not working on some art or adding something new to her
-        <a href="https://paperfox.github.io/tarot/">Tarot App</a>, you'll likely find her playing
-      with her dog, or out in her garden.
+          many other media, the vast majority of her work is in watercolor and
+          ink. For Nathalie, the core of her art is the joy of making, so she’s
+          yet to settle down on just one style. If she's not working on some
+          art or adding something new to her <a href="https://paperfox.github.io/tarot/">Tarot App</a>,
+          you'll likely find her playing with her dog, or out in her garden.
         </p>
       </div>
       <ul class="social-links">
@@ -85,5 +80,5 @@ export function leftRail() {
       </ul>
   `;
 
-  containerArt.insertAdjacentHTML("afterbegin", html);
+  containerArt.insertAdjacentHTML('afterbegin', html);
 }

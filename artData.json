@@ -40,7 +40,7 @@
     "link": "giant_panda.jpg"
   },
   {
-    "title": "Scottish Wildcat",
+    "title": "Giant Panda Line Art",
     "date": "Oct 27, 2024",
     "desc": "Micron pen line art of a panda sleeping on a crescent moon with 4 swords hanging below them.",
     "dimensions": "6x9 inches",
@@ -50,12 +50,570 @@
     "link": "giant_panda_lines.jpg"
   },
   {
+    "title": "Oof",
+    "date": "Oct 24, 2024",
+    "desc": "Micron pen and watercolor of a cute young saharan cheetah tripping and falling while running.",
+    "dimensions": "7x10 inches",
+    "media": ["micron pen", "ink", "watercolor"],
+    "content": ["cheetah", "animal"],
+    "forSale": false,
+    "link": "oof.jpg"
+  },
+  {
+    "title": "Oof Line Art",
+    "date": "Oct 23, 2024",
+    "desc": "Micron pen line art of a cute young saharan cheetah tripping and falling while running.",
+    "dimensions": "7x10 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["cheetah", "animal"],
+    "forSale": false,
+    "link": "oof_lines.jpg"
+  },
+  {
+    "title": "Philippine Eagle",
+    "date": "Oct 22, 2024",
+    "desc": "Watercolor portrait of a Philippine Eagle looking over its shoulder.",
+    "dimensions": "7x10 inches",
+    "media": ["watercolor"],
+    "content": ["eagle", "animal"],
+    "forSale": false,
+    "link": "philippine_eagle.jpg"
+  },
+  {
+    "title": "Marsican Brown Bear",
+    "date": "Oct 20, 2024",
+    "desc": "Micron pen and watercolor of a Marsican Brown Bear walking in front of the night sky with the Ursa Major constellation visible.",
+    "dimensions": "6x9 inches",
+    "media": ["micron pen", "ink", "watercolor"],
+    "content": ["bear", "animal"],
+    "forSale": false,
+    "link": "marsican_brown_bear.jpg"
+  },
+  {
+    "title": "Marsican Brown Bear Line Art",
+    "date": "Oct 19, 2024",
+    "desc": "Micron pen line art of a Marsican Brown Bear walking in front of the night sky with the Ursa Major constellation visible.",
+    "dimensions": "6x9 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["bear", "animal"],
+    "forSale": false,
+    "link": "marsican_brown_bear_lines.jpg"
+  },
+  {
+    "title": "Bush Dog",
+    "date": "Oct 18, 2024",
+    "desc": "Micron pen and watercolor portrait of a bush dog with abstract green foliage in the background.",
+    "dimensions": "2.5x3.5 inches",
+    "media": ["micron pen", "ink", "watercolor"],
+    "content": ["dog", "animal"],
+    "forSale": false,
+    "link": "bush_dog.jpg"
+  },
+  {
+    "title": "Bush Dog Line Art",
+    "date": "Oct 17, 2024",
+    "desc": "Micron pen portrait of a bush dog.",
+    "dimensions": "2.5x3.5 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["dog", "animal"],
+    "forSale": false,
+    "link": "bush_dog_lines.jpg"
+  },
+  {
+    "title": "MacQueen’s Bustard, Firebird",
+    "date": "Oct 16, 2024",
+    "desc": "Watercolor and ink painting of a firebird inspired by the MacQueen’s Bustard, a yellow, red, and orange bird on a red and black background.",
+    "dimensions": "6x9 inches",
+    "media": ["ink", "watercolor"],
+    "content": ["bird", "animal"],
+    "forSale": false,
+    "link": "macqueen_s_bustard.jpg"
+  },
+  {
+    "title": "MacQueen’s Bustard, Firebird",
+    "date": "Oct 15, 2024",
+    "desc": "Digital line art of a firebird inspired by the MacQueen’s Bustard.",
+    "dimensions": "6x9 inches",
+    "media": ["digital"],
+    "content": ["bird", "animal"],
+    "forSale": false,
+    "link": "macqueen_s_bustard_lines.jpg"
+  },
+  {
+    "title": "Mountain Gazelle",
+    "date": "Oct 14, 2024",
+    "desc": "Micron pen and watercolor portrait of a Mountain Gazelle with a sunny sky in the background.",
+    "dimensions": "6x9 inches",
+    "media": ["micron pen", "ink", "watercolor"],
+    "content": ["gazelle", "animal"],
+    "forSale": false,
+    "link": "mountain_gazelle.heic"
+  },
+  {
+    "title": "Mountain Gazelle Line Art",
+    "date": "Oct 13, 2024",
+    "desc": "Micron pen portrait of a Mountain Gazelle.",
+    "dimensions": "6x9 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["gazelle", "animal"],
+    "forSale": false,
+    "link": "mountain_gazelle_lines.jpg"
+  },
+  {
+    "title": "Sea Serpent Dreams of Flying",
+    "date": "Oct 12, 2024",
+    "desc": "Micron pen and watercolor scene of a sea dragon, inspired by the Galapagos marine iguana, climbing a rock spire that is being struck by lightning in a stormy sea and sky.",
+    "dimensions": "6x9 inches",
+    "media": ["micron pen", "ink", "watercolor"],
+    "content": ["dragon", "iguana", "animal", "fantasy"],
+    "forSale": false,
+    "link": "sea_serpent_dreams_of_flying.jpg"
+  },
+  {
+    "title": "Sea Serpent Dreams of Flying Line Art",
+    "date": "Oct 11, 2024",
+    "desc": "Micron pen scene of a sea dragon, inspired by the Galapagos marine iguana, climbing a rock spire.",
+    "dimensions": "6x9 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["dragon", "iguana", "animal", "fantasy"],
+    "forSale": false,
+    "link": "sea_serpent_dreams_of_flying_lines.jpg"
+  },
+  {
+    "title": "Pernambuco Pygmy-owl",
+    "date": "Oct 10, 2024",
+    "desc": "Micron pen and watercolor of a Pernambuco Pygmy-owl on a light branch with 8 more branches in the background and a night sky.",
+    "dimensions": "6x9 inches",
+    "media": ["micron pen", "ink", "watercolor"],
+    "content": ["bird", "animal"],
+    "forSale": false,
+    "link": "pernambuco_pygmy_owl.jpg"
+  },
+  {
+    "title": "Pernambuco Pygmy-owl Line Art",
+    "date": "Oct 9, 2024",
+    "desc": "Micron pen drawing of a Pernambuco Pygmy-owl on a branch.",
+    "dimensions": "6x9 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["bird", "animal"],
+    "forSale": false,
+    "link": "pernambuco_pygmy_owl_lines.jpg"
+  },
+  {
+    "title": "Conflict",
+    "date": "Oct 8, 2024",
+    "desc": "Micron pen and watercolor of two White-crowned Hornbills flying and arguing with 5 white branches in the background over a pink and gray sky.",
+    "dimensions": "6x9 inches",
+    "media": ["micron pen", "ink", "watercolor"],
+    "content": ["bird", "animal"],
+    "forSale": false,
+    "link": "conflict.jpg"
+  },
+  {
+    "title": "Conflict Line Art",
+    "date": "Oct 7, 2024",
+    "desc": "Micron pen drawing of two White-crowned Hornbills flying and arguing with 5 branches sketched in the background.",
+    "dimensions": "6x9 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["bird", "animal"],
+    "forSale": false,
+    "link": "conflict_lines.jpg"
+  },
+  {
+    "title": "Namdapha Flying Squirrel",
+    "date": "Oct 6, 2024",
+    "desc": "Micron pen and watercolor of a Namdapha Flying Squirrel climbing down a tree.",
+    "dimensions": "2.5x3.5 inches",
+    "media": ["micron pen", "ink", "watercolor"],
+    "content": ["squirrel", "animal"],
+    "forSale": false,
+    "link": "namdapha_flying_squirrel.jpg"
+  },
+  {
+    "title": "Namdapha Flying Squirrel Line Art",
+    "date": "Oct 5, 2024",
+    "desc": "Micron pen drawing of a Namdapha Flying Squirrel climbing down a tree.",
+    "dimensions": "2.5x3.5 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["squirrel", "animal"],
+    "forSale": false,
+    "link": "namdapha_flying_squirrel_lines.jpg"
+  },
+  {
+    "title": "Mexican Wolf",
+    "date": "Oct 4, 2024",
+    "desc": "Micron pen, ink, and watercolor of a Mexican Wolf running in front of trees and its face is a skull.",
+    "dimensions": "6x9 inches",
+    "media": ["micron pen", "ink", "watercolor"],
+    "content": ["wolf", "animal", "fantasy"],
+    "forSale": false,
+    "link": "mexican_wolf.jpg"
+  },
+  {
+    "title": "Mexican Wolf Line Art",
+    "date": "Oct 3, 2024",
+    "desc": "Micron pen, ink, and watercolor of a Mexican Wolf running in front of trees and its face is a skull.",
+    "dimensions": "6x9 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["wolf", "animal", "fantasy"],
+    "forSale": false,
+    "link": "mexican_wolf_lines.jpg"
+  },
+  {
+    "title": "Red Panda",
+    "date": "Oct 2, 2024",
+    "desc": "Micron pen, ink, and watercolor of a Red Panda with it's front paws on a fountain made of 6 leaves with liquid gold running through it on an abstract blue, purple, and black background.",
+    "dimensions": "6x9 inches",
+    "media": ["micron pen", "ink", "watercolor"],
+    "content": ["animal", "fantasy"],
+    "forSale": false,
+    "link": "red_panda.jpg"
+  },
+  {
+    "title": "Red Panda Line Art",
+    "date": "Oct 1, 2024",
+    "desc": "Micron pen drawing of a Red Panda with it's front paws on a fountain made of 6 leaves.",
+    "dimensions": "6x9 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["animal", "fantasy"],
+    "forSale": false,
+    "link": "red_panda_lines.jpg"
+  },
+  {
+    "title": "Jason and Colin",
+    "date": "Aug 1, 2024",
+    "desc": "Micron pen line art for fan art I'm working on of He Who Fights With Monsters of characters Jason and Colin. Jason is holding a lemonade and about to step of a ledge, Colin is a pile of leeches following behind him.",
+    "dimensions": "8x10 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["animal", "people", "fantasy"],
+    "forSale": false,
+    "link": "jason_and_colin_lines.jpg"
+  },
+  {
+    "title": "Sunshine",
+    "date": "Jul 14, 2024",
+    "desc": "Linocut print of a American Goldfinch sitting on a sunflower with a sun in a blue sky behind it.",
+    "dimensions": "8x10 inches",
+    "media": ["linocut", "printmaking"],
+    "content": ["bird", "flower", "plant", "animal"],
+    "forSale": false,
+    "link": "sunshine.jpg"
+  },
+  {
+    "title": "Seabirds",
+    "date": "Jun 23, 2024",
+    "desc": "Linocut and gelli print of a seabirds over water.",
+    "dimensions": "10x14 inches",
+    "media": ["linocut", "printmaking"],
+    "content": ["bird", "animal"],
+    "forSale": false,
+    "link": "seabirds.jpg"
+  },
+  {
+    "title": "Jellyfish",
+    "date": "Jun 23, 2024",
+    "desc": "Linocut and gelli plate prints of jellyfish, some over abstract watercolor backgrounds.",
+    "dimensions": "10x14 inches",
+    "media": ["linocut", "printmaking"],
+    "content": ["jellyfish", "animal"],
+    "forSale": false,
+    "link": "jellyfish_print.jpg",
+    "additionalImages": [
+      "jellyfish_print_addl1.jpg",
+      "jellyfish_print_addl2.jpg",
+      "jellyfish_print_addl3.jpg",
+      "jellyfish_print_addl4.jpg"
+    ]
+  },
+  {
+    "title": "Bitter Dreams",
+    "date": "Jun 23, 2024",
+    "desc": "Linocut and gelli plate prints of jellyfish and birds, some over abstract watercolor backgrounds, conveying the idea of dreams and how when reached they sometimes aren't what they were anticipated to be.",
+    "dimensions": "10x14 inches",
+    "media": ["linocut", "printmaking"],
+    "content": ["jellyfish", "bird", "animal", "fantasy"],
+    "forSale": false,
+    "link": "bitter_dreams.jpg",
+    "additionalImages": ["bitter_dreams_addl1.jpg", "bitter_dreams_addl2.jpg", "bitter_dreams_addl3.jpg"]
+  },
+  {
+    "title": "Blood Lily",
+    "date": "Sep 29, 2021",
+    "desc": "Micron pen and watercolor of a a miqo'te white mage casting a blood lily, FFXIV fan art.",
+    "dimensions": "9x12 inches",
+    "media": ["micron pen", "ink", "watercolor"],
+    "content": ["catboy", "animal", "people", "fantasy", "fanart"],
+    "forSale": false,
+    "link": "blood_lily.jpg"
+  },
+  {
+    "title": "Yoga Dogs",
+    "date": "Dec 31, 2020",
+    "desc": "Micron pen drawings of hound dogs in various yoga poses.",
+    "dimensions": "8x8 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["dog", "animal"],
+    "forSale": false,
+    "link": "yoga_dogs.jpg",
+    "additionalImages": ["yoga_dogs_more.jpg"]
+  },
+  {
+    "title": "Tiny Dragon",
+    "date": "Nov 22, 2020",
+    "desc": "Micron pen drawing on brown paper of a tiny wingless dragon crouched on a teaspoon.",
+    "dimensions": "9x12 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["dragon", "animal", "fantasy"],
+    "forSale": false,
+    "link": "tiny_dragon.jpg"
+  },
+  {
+    "title": "Amir Leopard",
+    "date": "Nov 4, 2020",
+    "desc": "Micron pen portrait of an amir leopard.",
+    "dimensions": "8x8 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["leopard", "animal"],
+    "forSale": false,
+    "link": "amir_leopard.jpg"
+  },
+  {
+    "title": "Starfish",
+    "date": "Oct 31, 2020",
+    "desc": "Micron pen and ink of two starfish, a snail, and a sea slug in a tide pool.",
+    "dimensions": "8x8 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["leopard", "animal"],
+    "forSale": false,
+    "link": "starfish.jpg"
+  },
+  {
+    "title": "White Kermode Bear",
+    "date": "Oct 30, 2020",
+    "desc": "Micron pen drawing of a white kermode bear eating a fish.",
+    "dimensions": "8x8 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["bear", "animal"],
+    "forSale": false,
+    "link": "white_kermode_bear.jpg"
+  },
+  {
+    "title": "Great Bustard",
+    "date": "Oct 29, 2020",
+    "desc": "Micron pen drawing of a great bustard bird strutting in front of some plants.",
+    "dimensions": "8x8 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["bird", "animal"],
+    "forSale": false,
+    "link": "great_bustard.jpg"
+  },
+  {
+    "title": "Sacred Blue Lily of the Nile",
+    "date": "Oct 28, 2020",
+    "desc": "Black ink and blue and yellow watercolor paining of a waterlily and two lily pads.",
+    "dimensions": "8x8 inches",
+    "media": ["ink", "watercolor"],
+    "content": ["waterlily", "plant"],
+    "forSale": false,
+    "link": "sacred_blue_lily_of_the_nile.jpg"
+  },
+  {
+    "title": "Narwhal",
+    "date": "Oct 28, 2020",
+    "desc": "Micron pen drawing of a narwhal swimming in front of an iceberg.",
+    "dimensions": "8x8 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["fish", "animal"],
+    "forSale": false,
+    "link": "narwhal.jpg"
+  },
+  {
+    "title": "White-spotted Char",
+    "date": "Oct 28, 2020",
+    "desc": "Micron pen and ink of a group of White-spotted Char swimming.",
+    "dimensions": "7x8 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["fish", "animal"],
+    "forSale": false,
+    "link": "white_spotted_char.jpg"
+  },
+  {
+    "title": "Rhinoceros Hornbill",
+    "date": "Oct 26, 2020",
+    "desc": "Black contrast ink painting of a rhinoceros hornbill holding a gold string with a key.",
+    "dimensions": "8x8 inches",
+    "media": ["ink"],
+    "content": ["bird", "animal"],
+    "forSale": false,
+    "link": "rhinoceros_hornbill.jpg"
+  },
+  {
+    "title": "Short-nosed Sea Snake",
+    "date": "Oct 26, 2020",
+    "desc": "Full body micron pen drawing of short-nosed sea snake facing viewer.",
+    "dimensions": "8.5x11 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["snake", "animal"],
+    "forSale": false,
+    "link": "short-nosed_sea_snake.jpg"
+  },
+  {
+    "title": "Alcathoe Bat",
+    "date": "Oct 24, 2020",
+    "desc": "Micron pen drawing of an alcathoe bat hanging on a branch with moths flying in the background.",
+    "dimensions": "8x8 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["leopard", "animal"],
+    "forSale": false,
+    "link": "alcathoe_bat.jpg"
+  },
+  {
+    "title": "Waling-waling orchid",
+    "date": "Oct 24, 2020",
+    "desc": "Micron pen and ink of a Waling-waling orchid flower.",
+    "dimensions": "6x6 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["flower", "plant"],
+    "forSale": false,
+    "link": "waling_waling_orchid.jpg"
+  },
+  {
+    "title": "Imperial Pidgeon",
+    "date": "Oct 23, 2020",
+    "desc": "Black and gold ink color blocking creating the silhouette of an Imperial Pidgeon wearing a crown.",
+    "dimensions": "10x10 inches",
+    "media": ["ink"],
+    "content": ["bird", "animal"],
+    "forSale": false,
+    "link": "imperial_pidgeon.jpg"
+  },
+  {
+    "title": "Manta Ray",
+    "date": "Oct 23, 2020",
+    "desc": "Black and gold ink painting of a manta ray swimming.",
+    "dimensions": "10x10 inches",
+    "media": ["ink"],
+    "content": ["sting ray", "animal"],
+    "forSale": true,
+    "link": "manta_ray.jpg"
+  },
+  {
+    "title": "Long-snouted Seahorse",
+    "date": "Oct 23, 2020",
+    "desc": "Micron pen drawing of a Long-snouted Seahorse with a giant gold in water drop behind it.",
+    "dimensions": "10x10 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["seahorse", "animal"],
+    "forSale": true,
+    "link": "long_snouted_seahorse.jpg"
+  },
+  {
+    "title": "Ring-tailed Lemur",
+    "date": "Oct 20, 2020",
+    "desc": "Micron pen drawing of a ring-tailed lemur curled up holding a mango in gold ink.",
+    "dimensions": "6x6 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["lemur", "animal"],
+    "forSale": false,
+    "link": "ring_tailed_lemur.jpg"
+  },
+  {
+    "title": "Hamerkop",
+    "date": "Oct 19, 2020",
+    "desc": "Black ink painting of a Hamerkop bird in front of a river with a boat on it.",
+    "dimensions": "10x10 inches",
+    "media": ["ink"],
+    "content": ["bird", "animal"],
+    "forSale": false,
+    "link": "hamerkop.jpg"
+  },
+  {
+    "title": "Moorhen",
+    "date": "Oct 16, 2020",
+    "desc": "Black ink portrait of a moorhen with a a red-orange watercolor beak.",
+    "dimensions": "8x8 inches",
+    "media": ["ink", "watercolor"],
+    "content": ["bird", "animal"],
+    "forSale": false,
+    "link": "moorhen.jpg"
+  },
+  {
+    "title": "Salamander",
+    "date": "Oct 14, 2020",
+    "desc": "Micron pen drawing of a salamander looking at it's reflection in the water where the reflection is a little dragon.",
+    "dimensions": "8x8 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["salamander", "animal", "fantasy"],
+    "forSale": false,
+    "link": "salamander.jpg"
+  },
+  {
+    "title": "Snow Leopard",
+    "date": "Oct 13, 2020",
+    "desc": "Black ink and blue watercolor high contrast portrait of a snow leopard.",
+    "dimensions": "10x10 inches",
+    "media": ["ink", "watercolor"],
+    "content": ["leopard", "animal"],
+    "forSale": false,
+    "link": "snow_leopard.jpg"
+  },
+  {
+    "title": "Snowy Owl",
+    "date": "Oct 13, 2020",
+    "desc": "micron pen drawing of a Snowy owl flying holding a gold ribbon.",
+    "dimensions": "8.5x11 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["owl", "animal"],
+    "forSale": false,
+    "link": "snowy_owl.jpg"
+  },
+  {
+    "title": "Kapok Tree",
+    "date": "Oct 11, 2020",
+    "desc": "Black ink painting of a Kapok Tree.",
+    "dimensions": "8x8 inches",
+    "media": ["ink"],
+    "content": ["tree", "landscape", "plant"],
+    "forSale": false,
+    "link": "kapok_tree.jpg"
+  },
+  {
+    "title": "Four-horned Chameleon",
+    "date": "Oct 10, 2020",
+    "desc": "micron pen drawing of a Four-horned Chameleon sitting in a leafy plant.",
+    "dimensions": "8.5x11 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["lizard", "animal", "plant"],
+    "forSale": false,
+    "link": "four_horned_chameleon.jpg"
+  },
+  {
+    "title": "Golden snub-nosed monkey",
+    "date": "Oct 10, 2020",
+    "desc": "Micron pen and gold ink painting of a monkey's face.",
+    "dimensions": "8x8 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["monkey", "animal"],
+    "forSale": false,
+    "link": "golden_snub_nosed_monkey.jpg"
+  },
+  {
+    "title": "Tibetan antelope",
+    "date": "Oct 10, 2020",
+    "desc": "black and gold ink painting of tibetan antelope silhouettes.",
+    "dimensions": "8x8 inches",
+    "media": ["ink"],
+    "content": ["antelope", "animal"],
+    "forSale": false,
+    "link": "tibetan_antelope.jpg"
+  },
+  {
     "title": "Bee",
     "date": "Oct 5, 2020",
     "desc": "micron pen drawing of a bee in a flower.",
     "dimensions": "8x10 inches",
-    "media": "",
-    "content": "",
+    "media": ["micron pen", "ink"],
+    "content": ["bee", "animal", "flower", "plant"],
     "forSale": false,
     "link": "bee.jpg"
   },
@@ -64,8 +622,8 @@
     "date": "Oct 9, 2020",
     "desc": "micron pen drawing of a Brown-eared Pheasant and a tree branch.",
     "dimensions": "8x10 inches",
-    "media": "",
-    "content": "",
+    "media": ["micron pen", "ink"],
+    "content": ["bird", "animal"],
     "forSale": false,
     "link": "brown_eared_pheasant.jpg"
   },
@@ -75,7 +633,7 @@
     "desc": "Ink painting of Balete Tree with birds and plants.",
     "dimensions": "8x8 inches",
     "media": ["ink"],
-    "content": ["tree", "landscape"],
+    "content": ["tree", "landscape", "plant"],
     "forSale": false,
     "link": "balete_tree.jpg"
   },
@@ -348,6 +906,26 @@
     "content": "",
     "forSale": false,
     "link": "enchanted.jpg"
+  },
+  {
+    "title": "Grand Tetons National Park",
+    "date": "Oct 15, 2019",
+    "desc": "Ink painting of windswept tree in the foreground with the grand tetons mountains in the background.",
+    "dimensions": "6x9 inches",
+    "media": ["ink"],
+    "content": ["landscape", "tree", "mountain", "plant"],
+    "forSale": false,
+    "link": "grand_tetons_national_park.jpg"
+  },
+  {
+    "title": "Playing Crow",
+    "date": "Oct 10, 2019",
+    "desc": "Black and gold ink painting of a crow plaing in willow branches.",
+    "dimensions": "6x9 inches",
+    "media": ["ink"],
+    "content": ["crow", "animal"],
+    "forSale": false,
+    "link": "playing_crow.jpg"
   },
   {
     "title": "The Jeebs",

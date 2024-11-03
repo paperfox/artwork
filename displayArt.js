@@ -8,19 +8,27 @@ export function displayArt(arts) {
   let arrayList = [];
   let page = 0;
   const paginationValue = 15;
+  let currentPage = 1;
 
   const pageCount = Math.ceil(arts.length / paginationValue);
   console.log(pageCount);
 
-  document.querySelector('.page-total').textContent = `${pageCount} Pages`;
+  document.querySelector('.page-total').textContent = `${currentPage} of ${pageCount}`;
 
   const paginator = () => {
     artList.innerHTML = '';
+    let owo;
     for (let i = page; i < page + paginationValue; i++) {
       artList.appendChild(arrayList[i]);
+
+      owo = Math.ceil(i / paginationValue);
     }
+
+    currentPage = owo;
+    document.querySelector('.page-total').textContent = `${currentPage} of ${pageCount}`;
   };
 
+  console.log(currentPage);
   arts.forEach((art, i) => {
     let li = document.createElement('li');
     li.innerHTML = `
