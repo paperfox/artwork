@@ -135,3 +135,5 @@ main {
 .tab-content.active {
   display: block;
 }
+
+.art-list { padding: 0; }
