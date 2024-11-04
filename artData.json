@@ -417,6 +417,86 @@
     "link": "pancakes_with_henry.jpg"
   },
   {
+    "title": "Mangroves",
+    "date": "Oct 10, 2021",
+    "desc": "Simple watercolor of a mangrove with the water line creating a break in the painting and the roots become paint drips.",
+    "dimensions": "5x5 inches",
+    "media": ["watercolor"],
+    "content": ["tree", "plant"],
+    "forSale": false,
+    "link": "mangroves.jpg"
+  },
+  {
+    "title": "African Wild Dog",
+    "date": "Oct 10, 2021",
+    "desc": "A sitting african wild dog, also known as painted wolf, staring at the viewer in watercolor.",
+    "dimensions": "4x6 inches",
+    "media": ["watercolor"],
+    "content": ["dog", "animal"],
+    "forSale": false,
+    "link": "painted_wolf.jpg"
+  },
+  {
+    "title": "Reeve’s Pheasant",
+    "date": "Oct 9, 2021",
+    "desc": "Blue, purple and teal abstract background with a Reeve's Pheasant inspired Luan mythological bird flying over it carying a black ribbon with a jingle bell.",
+    "dimensions": "7x9 inches",
+    "media": ["watercolor", "acrylic"],
+    "content": ["bird", "animal", "fantasy"],
+    "forSale": false,
+    "link": "reeve_s_pheasant.jpg"
+  },
+  {
+    "title": "Desert Tortoise",
+    "date": "Oct 8, 2021",
+    "desc": "Full body digital sketch of a Desert tortoise on a warm gray background using black and white lines.",
+    "dimensions": "5x5 inches",
+    "media": ["digital"],
+    "content": ["turtle", "tortoise", "animal"],
+    "forSale": false,
+    "link": "desert_tortoise.jpg"
+  },
+  {
+    "title": "Two-spot Ladybug",
+    "date": "Oct 7, 2021",
+    "desc": "Watercolor in red, yellow, blue, and black of a large two-spot ladybug made up of slightly abstract drips of paint, with the antenna and nead giving it distinct ladybug form.",
+    "dimensions": "6x9 inches",
+    "media": ["watercolor"],
+    "content": ["insect", "ladybug", "animal"],
+    "forSale": false,
+    "link": "two_spot_ladybug.jpg"
+  },
+  {
+    "title": "Asiatic Lion",
+    "date": "Oct 6, 2021",
+    "desc": "Watercolor and micron pen of a Asiatic Lion facing the viewer but looking towards the right side where the bottom half of her legs becomes streams of dripping paint.",
+    "dimensions": "4x6 inches",
+    "media": ["watercolor", "micron pen", "ink"],
+    "content": ["cat", "animal"],
+    "forSale": false,
+    "link": "asiatic_lion.jpg"
+  },
+  {
+    "title": "Pampas Deer",
+    "date": "Oct 4, 2021",
+    "desc": "Micron pen line art of a Pampas Deer with some graphic lines reminiscent of swirlng clouds.",
+    "dimensions": "8.5x11 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["deer", "animal"],
+    "forSale": false,
+    "link": "pampas_deer.jpg"
+  },
+  {
+    "title": "Riverine Rabbit",
+    "date": "Oct 3, 2021",
+    "desc": "Watercolor and ink painting of a riverine rabbit at night with some scrub brush and the moon visible.",
+    "dimensions": "8x8 inches",
+    "media": ["watercolor", "ink"],
+    "content": ["rabbit", "animal"],
+    "forSale": false,
+    "link": "riverine_rabbit.jpg"
+  },
+  {
     "title": "Hillstar Hummingbird",
     "date": "Oct 2, 2021",
     "desc": "Watercolor of several hillstar hummingbirds flying amongst orange flowers.",

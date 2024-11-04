@@ -1,3 +1,5 @@
+import { modal } from './modal.js';
+
 export function displayArt(arts) {
   const artList = document.querySelector('.art-list');
   const first = document.querySelector('.first');
@@ -9,6 +11,7 @@ export function displayArt(arts) {
   let page = 0;
   const paginationValue = 15;
   let currentPage = 1;
+  let currentPageArtwork = 0;
 
   const pageCount = Math.ceil(arts.length / paginationValue);
 
@@ -16,15 +19,16 @@ export function displayArt(arts) {
 
   const paginator = () => {
     artList.innerHTML = '';
-    let pageValue;
-    for (let i = page; i < page + paginationValue; i++) {
-      artList.appendChild(arrayList[i]);
 
-      pageValue = Math.ceil(i / paginationValue);
+    for (let i = page; i < page + paginationValue && i < arrayList.length; i++) {
+      artList.appendChild(arrayList[i]);
     }
 
-    currentPage = pageValue;
+    const pageCount = Math.ceil(arrayList.length / paginationValue);
+    currentPage = Math.ceil(page / paginationValue) + 1;
     document.querySelector('.page-total').textContent = `${currentPage} of ${pageCount}`;
+    currentPageArtwork = (currentPage - 1) * paginationValue;
+    modal(currentPageArtwork, arts);
   };
 
   arts.forEach((art, i) => {
@@ -37,20 +41,21 @@ export function displayArt(arts) {
     arrayList.push(li);
   });
 
-  for (let i = 0; i < page + paginationValue; i++) {
-    artList.appendChild(arrayList[i]);
-  }
+  // On load
+  paginator();
 
   next.addEventListener('click', function () {
-    page === arrayList.length - paginationValue
-      ? (page = arrayList.length - paginationValue)
-      : (page += paginationValue);
-    paginator();
+    if (page + paginationValue < arrayList.length) {
+      page += paginationValue;
+      paginator();
+    }
   });
 
   prev.addEventListener('click', function () {
-    page === 0 ? (page = 0) : (page -= paginationValue);
-    paginator();
+    if (page - paginationValue >= 0) {
+      page -= paginationValue;
+      paginator();
+    }
   });
 
   first.addEventListener('click', function () {
@@ -61,47 +66,5 @@ export function displayArt(arts) {
   last.addEventListener('click', function () {
     page = arrayList.length - paginationValue;
     paginator();
-  });
-
-  const openEls = document.querySelectorAll('[data-open]');
-  const closeEls = document.querySelectorAll('[data-close]');
-  const isVisible = 'is-visible';
-  const closeModal = () => document.querySelector('.modal.is-visible').classList.remove(isVisible);
-
-  for (const [i, el] of openEls.entries()) {
-    el.addEventListener('click', () => {
-      document.getElementById('art-modal').querySelector('.modal-title').textContent = arts[i].title;
-      document.getElementById('art-modal').querySelector('.modal-content').innerHTML = `
-        <div>
-          <img src="art/${arts[i].link}" alt="${arts[i].title}: ${arts[i].desc}" />
-        </div>
-        <div>
-          <p>${arts[i].date}</p>
-          <p>${arts[i].media}</p>
-          <p>${arts[i].desc}</p>
-          <p>any relevant links</p>
-          <p>Additional images</p>
-        </div>
-      `;
-      document.getElementById('art-modal').classList.add(isVisible);
-    });
-  }
-
-  for (const el of closeEls) {
-    el.addEventListener('click', function () {
-      this.parentElement.parentElement.parentElement.classList.remove(isVisible);
-    });
-  }
-
-  document.addEventListener('click', (e) => {
-    if (e.target == document.querySelector('.modal.is-visible')) {
-      closeModal();
-    }
-  });
-
-  document.addEventListener('keyup', (e) => {
-    if (e.key == 'Escape' && document.querySelector('.modal.is-visible')) {
-      closeModal();
-    }
   });
 }

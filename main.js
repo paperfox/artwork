@@ -5,7 +5,6 @@ import data from './artData.json';
 
 // To Do
 // Add all art data
-// add ability to click on an art piece to view it bigger and with more info
 // add filtering
 
 export function openTab(evt, tabName) {
