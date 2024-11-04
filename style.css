@@ -190,8 +190,8 @@ details { padding: var(--base-spacing); }
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
-  background: rgba(0, 0, 0, 0.8);
+  padding: var(--base-spacing);
+  background: rgba(var(--black), 0.8);
   cursor: pointer;
   visibility: hidden;
   opacity: 0;
@@ -200,53 +200,12 @@ details { padding: var(--base-spacing); }
  /* height: 100%;  Full height */
 }
 /* Modal Content */
-/* .modal-content {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-} */
-
-/* The Close Button */
-/* .close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.hide { display: none; } */
-
-
-
-
-.open-modal {
-  color: #fff;
-}
-
-.modal {
-  position: fixed;
-  top: 0;
-  left: 0;
+.modal-content {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-  background: rgba(0, 0, 0, 0.8);
-  cursor: pointer;
-  visibility: hidden;
-  opacity: 0;
-  transition: all 0.35s ease-in;
- /*  width: 100%; Full width */
- /* height: 100%;  Full height */
+
+  &,
+  div { margin: var(--base-spacing);}
+  img {max-height: 50vh;}
 }
 
 .modal.is-visible {
@@ -259,29 +218,26 @@ details { padding: var(--base-spacing); }
   max-width: 800px;
   max-height: 80vh;
   border-radius: 5px;
-  background: #fff;
+  background: var(--main-bg);
   overflow: auto;
   cursor: default;
-}
-
-.modal-dialog>* {
-  padding: 1rem;
-}
-
-.modal-header {
-  background: #efefef;
 }
 
 .modal-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 var(--xs-spacing);
+  background-color: var(--secondary-bg);
 }
 
 .modal-header .close-modal {
-  font-size: 1.5rem;
+  color: var(--link);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  background-color: transparent;
+  cursor: pointer;
 }
 
-.modal p+p {
-  margin-top: 1rem;
-}
+

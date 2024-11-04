@@ -69,11 +69,19 @@ export function displayArt(arts) {
 
   for (const [i, el] of openEls.entries()) {
     el.addEventListener('click', () => {
-      console.log(arts[i]);
-
-      const res = arts[i].title;
-
-      document.getElementById('modal1').querySelector('.modal-content').innerHTML = 'this is ' + res;
+      document.getElementById('modal1').querySelector('.modal-title').textContent = arts[i].title;
+      document.getElementById('modal1').querySelector('.modal-content').innerHTML = `
+        <div>
+          <img src="art/${arts[i].link}" alt="${arts[i].title}: ${arts[i].desc}" />
+        </div>
+        <div>
+          <p>${arts[i].date}</p>
+          <p>${arts[i].media}</p>
+          <p>${arts[i].desc}</p>
+          <p>any relevant links</p>
+          <p>Additional images</p>
+        </div>
+      `;
       document.getElementById('modal1').classList.add(isVisible);
     });
   }
