@@ -1,7 +1,7 @@
 import { modal } from './modal.js';
 
-export function displayArt(arts) {
-  const artList = document.querySelector('.art-list');
+export function displayArt(arts, location) {
+  const artList = location;
   const first = document.querySelector('.first');
   const prev = document.querySelector('.previous');
   const next = document.querySelector('.next');
@@ -64,7 +64,7 @@ export function displayArt(arts) {
   });
 
   last.addEventListener('click', function () {
-    page = arrayList.length - paginationValue;
+    page = Math.max(0, arrayList.length - paginationValue);
     paginator();
   });
 }

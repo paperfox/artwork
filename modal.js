@@ -5,24 +5,23 @@ export function modal(currentPageArtwork, arts) {
   const closeModal = () => document.querySelector('.modal.is-visible').classList.remove(isVisible);
 
   for (const [i, el] of openEls.entries()) {
-    const owo = i + currentPageArtwork;
+    const artwork = i + currentPageArtwork;
     el.addEventListener('click', () => {
-      document.getElementById('art-modal').querySelector('.modal-title').textContent = arts[owo].title;
+      document.getElementById('art-modal').querySelector('.modal-title').textContent = arts[artwork].title;
       document.getElementById('art-modal').querySelector('.modal-content').innerHTML = `
         <div>
-          <img src="art/${arts[owo].link}" alt="${arts[owo].title}: ${arts[owo].desc}" />
+          <img src="art/${arts[artwork].link}" alt="${arts[artwork].title}: ${arts[artwork].desc}" />
         </div>
         <div>
-          <p>${arts[owo].date}</p>
-          <p>${arts[owo].media}</p>
-          <p>${arts[owo].desc}</p>
+          <p>${arts[artwork].date}</p>
+          <p>${arts[artwork].media}</p>
+          <p>${arts[artwork].desc}</p>
           <p>any relevant links</p>
-          ${arts[owo].hasOwnProperty('additionalImages') === true ? `<p>Additional images</p>` : ''}
+          ${arts[artwork].hasOwnProperty('additionalImages') === true ? `<p>Additional images</p>` : ''}
         </div>
       `;
       document.getElementById('art-modal').classList.add(isVisible);
     });
-    console.log(owo);
   }
 
   for (const el of closeEls) {

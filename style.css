@@ -29,6 +29,10 @@
   /* Spacing */
   --base-spacing: 0.8rem;
   --xs-spacing: 1.6rem;
+
+  /* Grid */
+  --columns: 1;
+  --rows: 6;
 }
 
 html { font-size: 62.5%; }
@@ -91,6 +95,17 @@ main {
 @media (min-width: 1400px) {
   nav  { width: 25%; }
   main { width: 75%; }
+}
+
+@media (max-width: 768px) {
+  body {
+    display: block;
+    /* place-items: center; */
+  }
+  nav,
+  main { height: unset; }
+  nav  { width: 100%; }
+  main { width: 100%; }
 }
 
 /* Left Rail */
@@ -249,20 +264,9 @@ details { padding: var(--base-spacing); }
   }
 }
 
-
-
-:root {
-  --columns: 1;
-  --rows: 6;
-}
-
-/*
-*  Setup the wrapper as a Grid element, with 12 columns, 1 row
-*/
 [class*='artpiece-'] {
   display: grid;
   grid-template-columns: repeat(var(--columns), 1fr);
-  /* grid-template-rows: 40px; */
   align-items: end;
 }
 
@@ -291,3 +295,5 @@ img {
     text-decoration: underline;
   }
 }
+
+.art-list-sketches .open-modal { display: none; }
