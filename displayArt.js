@@ -11,7 +11,6 @@ export function displayArt(arts) {
   let currentPage = 1;
 
   const pageCount = Math.ceil(arts.length / paginationValue);
-  console.log(pageCount);
 
   document.querySelector('.page-total').textContent = `${currentPage} of ${pageCount}`;
 
@@ -28,7 +27,6 @@ export function displayArt(arts) {
     document.querySelector('.page-total').textContent = `${currentPage} of ${pageCount}`;
   };
 
-  console.log(currentPage);
   arts.forEach((art, i) => {
     let li = document.createElement('li');
     li.innerHTML = `

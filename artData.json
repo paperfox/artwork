@@ -367,9 +367,79 @@
     "link": "miko_pride.jpg"
   },
   {
+    "title": "Kingfisher",
+    "date": "Apr 12, 2024",
+    "desc": "Watercolor painting of a kingfisher sitting on a branch over with a bird in its beak with a blue sky behind it.",
+    "dimensions": "6x9 inches",
+    "media": ["watercolor"],
+    "content": ["bird", "animal"],
+    "forSale": false,
+    "link": "kingfisher.jpg"
+  },
+  {
+    "title": "Clark, Destroyer of Gardens",
+    "date": "Jan 8, 2024",
+    "desc": "Watercolor painting of a demonic looking jackalope with dead plants. This card is also my 5 of pentacles representing devastation, just like the rabbits in my yard do to my poor garden.",
+    "dimensions": "6x9 inches",
+    "media": ["micron pen", "ink", "watercolor"],
+    "content": ["rabbit", "animal"],
+    "forSale": false,
+    "link": "clark.jpg"
+  },
+  {
+    "title": "Salmon Run",
+    "date": "Dec 31, 2023",
+    "desc": "Micron pen and watercolor of a bear carrying off a fish from a fish filled stream in Alaska with 9 sea stars. In the background is a misty forest.",
+    "dimensions": "7x10 inches",
+    "media": ["micron pen", "ink", "watercolor"],
+    "content": ["fish", "animal", "bear", "landscape"],
+    "forSale": false,
+    "link": "salmon_run.jpg"
+  },
+  {
+    "title": "Dhole Party",
+    "date": "Dec 1, 2023",
+    "desc": "Micron pen and watercolor of three dholes playing near a stream with 3 pools of water with a dry grassy field behind them.",
+    "dimensions": "6x9 inches",
+    "media": ["micron pen", "ink", "watercolor"],
+    "content": ["dog", "animal", "landscape"],
+    "forSale": false,
+    "link": "dhole_party.jpg"
+  },
+  {
+    "title": "Pancakes with Henry",
+    "date": "Nov 26, 2023",
+    "desc": "Micron pen and watercolor of a boy sitting on a kitchen chair eating pancakes with a multi-eyed, multi-mouthed, tentacled dark purple eldritch horror lit by a staff with a lantern on it.",
+    "dimensions": "9x12 inches",
+    "media": ["micron pen", "ink", "watercolor"],
+    "content": ["demon", "horror", "fantasy", "people"],
+    "forSale": false,
+    "link": "pancakes_with_henry.jpg"
+  },
+  {
+    "title": "Hillstar Hummingbird",
+    "date": "Oct 2, 2021",
+    "desc": "Watercolor of several hillstar hummingbirds flying amongst orange flowers.",
+    "dimensions": "6x9 inches",
+    "media": ["watercolor"],
+    "content": ["bird", "animal"],
+    "forSale": false,
+    "link": "hillstar_hummingbird.jpg"
+  },
+  {
+    "title": "Irimote cat",
+    "date": "Oct 1, 2021",
+    "desc": "Micron pen and watercolor of an irimote cat carrying a lizard looking backwards at the viewer over it's shoulder.",
+    "dimensions": "5x5 inches",
+    "media": ["micron pen", "ink", "watercolor"],
+    "content": ["cat", "animal"],
+    "forSale": false,
+    "link": "irimote_cat.jpg"
+  },
+  {
     "title": "Blood Lily",
     "date": "Sep 29, 2021",
-    "desc": "Micron pen and watercolor of a a miqo'te white mage casting a blood lily, FFXIV fan art.",
+    "desc": "Micron pen and watercolor of a miqo'te white mage casting a blood lily, FFXIV fan art.",
     "dimensions": "9x12 inches",
     "media": ["micron pen", "ink", "watercolor"],
     "content": ["catboy", "animal", "people", "fantasy", "fanart"],
@@ -408,9 +478,9 @@
     "link": "amir_leopard.jpg"
   },
   {
-    "title": "Starfish",
+    "title": "Sea Star",
     "date": "Oct 31, 2020",
-    "desc": "Micron pen and ink of two starfish, a snail, and a sea slug in a tide pool.",
+    "desc": "Micron pen and ink of two sea stars, a snail, and a sea slug in a tide pool.",
     "dimensions": "8x8 inches",
     "media": ["micron pen", "ink"],
     "content": ["leopard", "animal"],
