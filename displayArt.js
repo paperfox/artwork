@@ -16,14 +16,14 @@ export function displayArt(arts) {
 
   const paginator = () => {
     artList.innerHTML = '';
-    let owo;
+    let pageValue;
     for (let i = page; i < page + paginationValue; i++) {
       artList.appendChild(arrayList[i]);
 
-      owo = Math.ceil(i / paginationValue);
+      pageValue = Math.ceil(i / paginationValue);
     }
 
-    currentPage = owo;
+    currentPage = pageValue;
     document.querySelector('.page-total').textContent = `${currentPage} of ${pageCount}`;
   };
 
@@ -32,6 +32,7 @@ export function displayArt(arts) {
     li.innerHTML = `
       <div class="artpiece-${i}">
         <img src="art/${art.link}" alt="${art.title}: ${art.desc}" />
+        <button type="button" class="open-modal" data-open="modal${i + 1}">${art.title}</button></div>
       </div>`;
     arrayList.push(li);
   });
@@ -60,5 +61,37 @@ export function displayArt(arts) {
   last.addEventListener('click', function () {
     page = arrayList.length - paginationValue;
     paginator();
+  });
+
+  const openEls = document.querySelectorAll('[data-open]');
+  const closeEls = document.querySelectorAll('[data-close]');
+  const isVisible = 'is-visible';
+
+  for (const [i, el] of openEls.entries()) {
+    el.addEventListener('click', () => {
+      console.log(arts[i]);
+
+      const res = arts[i].title;
+
+      document.getElementById('modal1').querySelector('.modal-content').innerHTML = 'this is ' + res;
+      document.getElementById('modal1').classList.add(isVisible);
+    });
+  }
+  for (const el of closeEls) {
+    el.addEventListener('click', function () {
+      this.parentElement.parentElement.parentElement.classList.remove(isVisible);
+    });
+  }
+
+  document.addEventListener('click', (e) => {
+    if (e.target == document.querySelector('.modal.is-visible')) {
+      document.querySelector('.modal.is-visible').classList.remove(isVisible);
+    }
+  });
+
+  document.addEventListener('keyup', (e) => {
+    if (e.key == 'Escape' && document.querySelector('.modal.is-visible')) {
+      document.querySelector('.modal.is-visible').classList.remove(isVisible);
+    }
   });
 }
