@@ -66,11 +66,12 @@ export function displayArt(arts) {
   const openEls = document.querySelectorAll('[data-open]');
   const closeEls = document.querySelectorAll('[data-close]');
   const isVisible = 'is-visible';
+  const closeModal = () => document.querySelector('.modal.is-visible').classList.remove(isVisible);
 
   for (const [i, el] of openEls.entries()) {
     el.addEventListener('click', () => {
-      document.getElementById('modal1').querySelector('.modal-title').textContent = arts[i].title;
-      document.getElementById('modal1').querySelector('.modal-content').innerHTML = `
+      document.getElementById('art-modal').querySelector('.modal-title').textContent = arts[i].title;
+      document.getElementById('art-modal').querySelector('.modal-content').innerHTML = `
         <div>
           <img src="art/${arts[i].link}" alt="${arts[i].title}: ${arts[i].desc}" />
         </div>
@@ -82,9 +83,10 @@ export function displayArt(arts) {
           <p>Additional images</p>
         </div>
       `;
-      document.getElementById('modal1').classList.add(isVisible);
+      document.getElementById('art-modal').classList.add(isVisible);
     });
   }
+
   for (const el of closeEls) {
     el.addEventListener('click', function () {
       this.parentElement.parentElement.parentElement.classList.remove(isVisible);
@@ -93,13 +95,13 @@ export function displayArt(arts) {
 
   document.addEventListener('click', (e) => {
     if (e.target == document.querySelector('.modal.is-visible')) {
-      document.querySelector('.modal.is-visible').classList.remove(isVisible);
+      closeModal();
     }
   });
 
   document.addEventListener('keyup', (e) => {
     if (e.key == 'Escape' && document.querySelector('.modal.is-visible')) {
-      document.querySelector('.modal.is-visible').classList.remove(isVisible);
+      closeModal();
     }
   });
 }
