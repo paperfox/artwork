@@ -290,6 +290,26 @@
     "link": "jason_and_colin_lines.jpg"
   },
   {
+    "title": "Raven Queen",
+    "date": "Jul 29, 2024",
+    "desc": "Digital portrait of the Raven Queen from A Practical Guide to Sorcery, holding feathers with feathers falling around her and her shadow shows a raven demon. Below her knees she dissolves into feathers.",
+    "dimensions": "8x11 inches",
+    "media": ["digital"],
+    "content": ["person", "fantasy"],
+    "forSale": false,
+    "link": "raven_queen.jpg"
+  },
+  {
+    "title": "Page of Pentacles",
+    "date": "Jul 26, 2024",
+    "desc": "Watercolor painting of a white-throated magpie jay on a branch holding a gold chain with a large pentacle charm. The background is pink and pink-gray color blocked in thick stripes.",
+    "dimensions": "9x12 inches",
+    "media": ["micron pen", "ink", "watercolor"],
+    "content": ["bird", "animal", "fantasy"],
+    "forSale": false,
+    "link": "page_of_pentacles.jpg"
+  },
+  {
     "title": "Sunshine",
     "date": "Jul 14, 2024",
     "desc": "Linocut print of a American Goldfinch sitting on a sunflower with a sun in a blue sky behind it.",
@@ -335,6 +355,16 @@
     "forSale": false,
     "link": "bitter_dreams.jpg",
     "additionalImages": ["bitter_dreams_addl1.jpg", "bitter_dreams_addl2.jpg", "bitter_dreams_addl3.jpg"]
+  },
+  {
+    "title": "2024 Pride - Featuring Miko",
+    "date": "Jun 4, 2024",
+    "desc": "Digital portrait of Miko the Shiba Inu wearing a hat and bandana featuring the progress pride flag colors, celebrating 2024 pride month!",
+    "dimensions": "3x2.5 inches",
+    "media": ["digital"],
+    "content": ["dog", "pride", "animal", "fantasy"],
+    "forSale": false,
+    "link": "miko_pride.jpg"
   },
   {
     "title": "Blood Lily",
@@ -748,16 +778,6 @@
     "link": "phoenix_s_shadow.jpg"
   },
   {
-    "title": "Chasing Stray Hares",
-    "date": "Mar 1, 2020",
-    "desc": "Micron pen drawing of a wolf in a forest jumping over a log chasing a rabbit.",
-    "dimensions": "8.5x11 inches",
-    "media": "",
-    "content": "",
-    "forSale": false,
-    "link": "chasing_stray_hares.jpg"
-  },
-  {
     "title": "Just Before Dawn",
     "date": "Jan 4, 2020",
     "desc": "watercolor painting blue and white winged wolf on a lit iron lampost in the pre-dawn night sky.",
@@ -1066,6 +1086,16 @@
     "content": "",
     "forSale": false,
     "link": "bahia_pez_vela.jpg"
+  },
+  {
+    "title": "Chasing Stray Hares",
+    "date": "Jul 14, 2013",
+    "desc": "Micron pen drawing of a wolf in a forest jumping over a log chasing a rabbit.",
+    "dimensions": "8.5x11 inches",
+    "media": "",
+    "content": "",
+    "forSale": false,
+    "link": "chasing_stray_hares.jpg"
   },
   {
     "title": "Dog Alphabet",

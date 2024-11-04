@@ -7,7 +7,6 @@ import data from './artData.json';
 // Add all art data
 // add ability to click on an art piece to view it bigger and with more info
 // add filtering
-// add pagination
 
 export function openTab(evt, tabName) {
   const tabContent = document.getElementsByClassName('tab-content');
@@ -23,10 +22,7 @@ export function openTab(evt, tabName) {
 }
 window.openTab = openTab;
 
-// openTab();
 // Left rail
 leftRail();
 // Main
 displayArt(data);
-
-console.log(data.length);

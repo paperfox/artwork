@@ -8,17 +8,17 @@ export function leftRail() {
       <div>
         <h3>About</h3>
         <p>
-          A lifetime creative, Nathalie sticks to painting the things
-          she loves. This leads her across the map of wildlife to fantasy
-          creatures, figures to landscapes, and most definitely some pet
-          portraits. Her illustrative style draws inspiration from animation and
-          the Japanese woodblock printing tradition, especially the Shin Hanga
-          movement of the early 20th century. While she occasionally dabbles in
-          many other media, the vast majority of her work is in watercolor and
-          ink. For Nathalie, the core of her art is the joy of making, so she’s
-          yet to settle down on just one style. If she's not working on some
-          art or adding something new to her <a href="https://paperfox.github.io/tarot/">Tarot App</a>,
-          you'll likely find her playing with her dog, or out in her garden.
+          A lifetime creative, Nathalie sticks to painting the things she loves
+          and bring her joy. This leads her across the map of wildlife to
+          fantasy creatures, figures to landscapes, and most definitely some
+          pet portraits. Her illustrative, but varied, style draws inspiration
+          from animation and the Japanese woodblock printing tradition,
+          especially the Shin Hanga movement of the early 20th century. While
+          she occasionally dabbles in many other media, the vast majority of
+          her work is in watercolor and ink. If she's not working on some art
+          or adding something new to her
+          <a href="https://paperfox.github.io/tarot/">Tarot App</a>, you'll
+          likely find her playing with her dog, or out in her garden.
         </p>
       </div>
       <ul class="social-links">
@@ -29,7 +29,7 @@ export function leftRail() {
             rel="noreferrer"
           >
             <img
-              src="https://paperfox.github.io/images/instagramlogo.svg"
+              src="logos/instagramlogo.svg"
               alt="Instagram"
               class="invert"
             />
@@ -38,7 +38,7 @@ export function leftRail() {
         <li class="m-3">
           <a href="https://cara.app/paperfox" target="_blank" rel="noreferrer">
             <img
-              src="https://paperfox.github.io/images/cara-app-logo-circle-White.svg"
+              src="logos/cara-app-logo-circle-White.svg"
               alt="Cara"
             />
           </a>
@@ -59,7 +59,7 @@ export function leftRail() {
             rel="noreferrer"
           >
             <img
-              src="https://paperfox.github.io/images/github-mark.svg"
+              src="logos/github-mark.svg"
               alt="GitHub"
               class="invert"
             />
@@ -72,7 +72,7 @@ export function leftRail() {
             rel="noreferrer"
           >
             <img
-              src="https://paperfox.github.io/images/linkedinlogo.svg"
+              src="logos/linkedinlogo.svg"
               alt="LinkedIn"
             />
           </a>
