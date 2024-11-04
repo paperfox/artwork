@@ -15,7 +15,7 @@
     <main>
       <ul class="nav-tabs">
         <li>
-          <button class="tab-control" onclick="openTab(event, 'artTab')">Artwork</button>
+          <button class="tab-control active" onclick="openTab(event, 'artTab')">Artwork</button>
         </li>
         <li>
           <button class="tab-control" onclick="openTab(event, 'sketchTab')">Sketchbook</button>
@@ -55,7 +55,7 @@
               </div>
             </div>
             <div>
-              <h3>Content</h3>
+              <h3>Subject</h3>
               <div class="categories">
                 <p>Animals</p>
                 <p>Fantasy</p>
@@ -71,7 +71,7 @@
           </div>
         </details>
         <div class="artwork">
-          <ul class="art-list"></ul>
+          <ul class="art-list" aria-live="polite"></ul>
           <ul class="tabs">
             <li><button class="first">First</button></li>
             <li><button class="previous">Previous</button></li>
