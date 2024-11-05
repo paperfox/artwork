@@ -1,5 +1,5 @@
 export function leftRail() {
-  const containerArt = document.querySelector(".left-rail");
+  const containerArt = document.querySelector('.left-rail');
   const html = `
       <div>
         <h1>Paperfox</h1>
@@ -65,5 +65,5 @@ export function leftRail() {
       </ul>
   `;
 
-  containerArt.insertAdjacentHTML("afterbegin", html);
+  containerArt.insertAdjacentHTML('afterbegin', html);
 }
