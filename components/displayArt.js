@@ -38,7 +38,7 @@ export function displayArt(arts, location) {
     let li = document.createElement('li');
     li.innerHTML = `
       <div class="artpiece-${i}">
-        <img src="/art/${art.link}" alt="${art.title}: ${art.desc}" />
+        <img src="./art/${art.link}" alt="${art.title}: ${art.desc}" />
         <button type="button" class="open-modal" data-open="modal${i + 1}">${art.title}</button></div>
       </div>`;
     arrayList.push(li);
