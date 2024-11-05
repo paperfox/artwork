@@ -3,43 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image" href="/icon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Nathalie Garfinkle's artwork and sketches over the years."
-    />
-    <meta
-      name="keywords"
-      content="Artwork, sketches, Watercolor, pen, ink, animals, fantasy, art"
-    />
+    <meta name="description" content="Nathalie Garfinkle's artwork and sketches over the years." />
+    <meta name="keywords" content="Artwork, sketches, Watercolor, pen, ink, animals, fantasy, art" />
     <meta name="author" content="Nathalie Garfinkle" />
     <title>Paperfox: Artwork by Nathalie Garfinkle</title>
     <script type="module" src="./main.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
-      rel="stylesheet"
-    />
-    <link href="./style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
   </head>
   <body>
     <aside class="left-rail"></aside>
-    <main>
+    <main class="main">
       <ul class="nav-tabs">
         <li>
-          <button class="tab-control active" onclick="openTab(event, 'artTab')">
-            Artwork
-          </button>
+          <button class="tab-control active" onclick="openTab(event, 'artTab')">Artwork</button>
         </li>
         <li>
-          <button class="tab-control" onclick="openTab(event, 'sketchTab')">
-            Sketchbook
-          </button>
+          <button class="tab-control" onclick="openTab(event, 'sketchTab')">Sketchbook</button>
         </li>
       </ul>
       <div class="tab-content active" id="artTab">
-        <details>
+        <!-- <details>
           <summary>Filters</summary>
           <div class="filters">
             <div>
@@ -86,7 +71,7 @@
               </div>
             </div>
           </div>
-        </details>
+        </details> -->
         <div class="artwork">
           <ul class="art-list" aria-live="polite"></ul>
           <ul class="tabs">
@@ -100,23 +85,14 @@
       </div>
       <div class="tab-content" id="sketchTab">
         <div class="artwork">
-          <ul class="art-list-sketches" aria-live="polite"></ul>
-          <ul class="tabs">
-            <li><button class="first">First</button></li>
-            <li><button class="previous">Previous</button></li>
-            <li class="page-total"></li>
-            <li><button class="next">Next</button></li>
-            <li><button class="last">Last</button></li>
-          </ul>
+          <ul class="art-list-sketches"></ul>
         </div>
       </div>
       <div class="modal" id="art-modal">
         <div class="modal-dialog">
           <header class="modal-header">
             <h2 class="modal-title">Modal Title</h2>
-            <button class="close-modal" aria-label="close modal" data-close>
-              &times;
-            </button>
+            <button class="close-modal" aria-label="close modal" data-close>&times;</button>
           </header>
           <section class="modal-content">
             <p>Modal content</p>
@@ -126,12 +102,8 @@
     </main>
     <ul class="social-links mobile-only">
       <li class="m-3">
-        <a
-          href="https://www.instagram.com/paperfoxmakesart/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src="./logos/instagramlogo.svg" alt="Instagram" class="invert" />
+        <a href="https://www.instagram.com/paperfoxmakesart/" target="_blank" rel="noreferrer">
+          <img src="logos/instagramlogo.svg" alt="Instagram" class="invert" />
         </a>
       </li>
       <li class="m-3">
@@ -140,15 +112,8 @@
         </a>
       </li>
       <li class="m-3">
-        <a
-          href="https://www.natickartassociation.org/nathalie-garfinkle"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            src="./logos/NAA_Logo_Final_C2.png"
-            alt="Natick Art Association"
-          />
+        <a href="https://www.natickartassociation.org/nathalie-garfinkle" target="_blank" rel="noreferrer">
+          <img src="logos/NAA_Logo_Final_C2.png" alt="Natick Art Association" />
         </a>
       </li>
       <li class="m-3">
@@ -157,12 +122,8 @@
         </a>
       </li>
       <li class="m-3">
-        <a
-          href="https://www.linkedin.com/in/nathaliegarfinkle/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src="./logos/linkedinlogo.svg" alt="LinkedIn" />
+        <a href="https://www.linkedin.com/in/nathaliegarfinkle/" target="_blank" rel="noreferrer">
+          <img src="logos/linkedinlogo.svg" alt="LinkedIn" />
         </a>
       </li>
     </ul>

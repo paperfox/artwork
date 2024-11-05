@@ -1,25 +1,25 @@
-import "./style.css";
-import { displayArt } from "./components/displayArt.js";
-import { leftRail } from "./components/leftRail.js";
-import dataArt from "./data/artData.json";
-import dataSketches from "./data/sketchData.json";
+import './style.css';
+import { displayArt } from './components/displayArt.js';
+import { leftRail } from './components/leftRail.js';
+import dataArt from './data/artData.json';
+import dataSketches from './data/sketchData.json';
 
 // To Do
 // Add all art data
 // add filtering
-// on clicking pagination, scroll to top of page
+// consider: do I need to move focus to the first image since I've scrolled to top?
 
 export function openTab(evt, tabName) {
-  const tabContent = document.getElementsByClassName("tab-content");
-  const tabLinks = document.getElementsByClassName("tab-control");
+  const tabContent = document.getElementsByClassName('tab-content');
+  const tabLinks = document.getElementsByClassName('tab-control');
 
   for (let i = 0; i < tabContent.length; i++) {
-    tabContent[i].className = tabContent[i].className.replace(" active", "");
-    tabLinks[i].className = tabLinks[i].className.replace(" active", "");
+    tabContent[i].className = tabContent[i].className.replace(' active', '');
+    tabLinks[i].className = tabLinks[i].className.replace(' active', '');
   }
 
-  document.getElementById(tabName).className += " active";
-  evt.currentTarget.className += " active";
+  document.getElementById(tabName).className += ' active';
+  evt.currentTarget.className += ' active';
 }
 window.openTab = openTab;
 
@@ -27,9 +27,9 @@ window.openTab = openTab;
 leftRail();
 
 // Main
-const sketches = document.querySelector(".art-list-sketches");
+const sketches = document.querySelector('.art-list-sketches');
 displayArt(dataSketches, sketches);
-const finishedWork = document.querySelector(".art-list");
+const finishedWork = document.querySelector('.art-list');
 displayArt(dataArt, finishedWork);
 
 //
