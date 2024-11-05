@@ -245,6 +245,7 @@ details { padding: var(--base-spacing); }
   display: grid;
   grid-template-columns: repeat(var(--columns), 1fr);
   align-items: end;
+  width: min-content;
 }
 
 img {
@@ -259,10 +260,8 @@ img {
   grid-column-end: span var(--columns);
   grid-row-start: 1;
   grid-row-end: 2;
-  width: min-content;
-
   background: rgba(var(--black), 0.7);
-  color: var(--white);
+  color: rgba(var(--white));
   border: none;
   padding: var(--base-spacing);
   cursor: pointer;
