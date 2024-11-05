@@ -64,10 +64,9 @@ a {
 
 button {
   font-family: inherit;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: rgba(var(--white));
   padding: var(--base-spacing);
-  border-radius: 0.4rem;
 }
 
 ul {
@@ -309,4 +308,8 @@ img {
   .nav-tabs { background-color: var(--secondary-bg); }
   .desktop-only { display: none; }
   .social-links { width: 80%; }
+  .tabs {
+    display: flex;
+    justify-content: center;
+  }
 }

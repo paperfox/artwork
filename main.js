@@ -7,7 +7,11 @@ import dataSketches from './data/sketchData.json';
 // To Do
 // Add all art data
 // add filtering
-// consider: do I need to move focus to the first image since I've scrolled to top?
+
+const defaultTab = () => {
+  const finishedWork = document.querySelector('.art-list');
+  displayArt(dataArt, finishedWork);
+};
 
 export function openTab(evt, tabName) {
   const tabContent = document.getElementsByClassName('tab-content');
@@ -16,6 +20,13 @@ export function openTab(evt, tabName) {
   for (let i = 0; i < tabContent.length; i++) {
     tabContent[i].className = tabContent[i].className.replace(' active', '');
     tabLinks[i].className = tabLinks[i].className.replace(' active', '');
+  }
+
+  if (tabName === 'artTab') {
+    defaultTab();
+  } else {
+    const sketches = document.querySelector('.art-list-sketches');
+    displayArt(dataSketches, sketches);
   }
 
   document.getElementById(tabName).className += ' active';
@@ -27,10 +38,7 @@ window.openTab = openTab;
 leftRail();
 
 // Main
-const sketches = document.querySelector('.art-list-sketches');
-displayArt(dataSketches, sketches);
-const finishedWork = document.querySelector('.art-list');
-displayArt(dataArt, finishedWork);
+defaultTab();
 
 //
 // because I frequently need to know how many art pieces I have I'm leaving this here for now
