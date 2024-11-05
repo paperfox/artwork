@@ -1,5 +1,5 @@
 export function leftRail() {
-  const containerArt = document.querySelector('.left-rail');
+  const containerArt = document.querySelector(".left-rail");
   const html = `
       <div>
         <h1>Paperfox</h1>
@@ -28,19 +28,12 @@ export function leftRail() {
             target="_blank"
             rel="noreferrer"
           >
-            <img
-              src="logos/instagramlogo.svg"
-              alt="Instagram"
-              class="invert"
-            />
+            <img src="./logos/instagramlogo.svg" alt="Instagram" class="invert" />
           </a>
         </li>
         <li class="m-3">
           <a href="https://cara.app/paperfox" target="_blank" rel="noreferrer">
-            <img
-              src="logos/cara-app-logo-circle-White.svg"
-              alt="Cara"
-            />
+            <img src="./logos/cara-app-logo-circle-White.svg" alt="Cara" />
           </a>
         </li>
         <li class="m-3">
@@ -49,20 +42,15 @@ export function leftRail() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src="NAA_Logo_Final_C2.png" alt="Natick Art Association" />
+            <img
+              src="./logos/NAA_Logo_Final_C2.png"
+              alt="Natick Art Association"
+            />
           </a>
         </li>
         <li class="m-3">
-          <a
-            href="https://github.com/paperfox"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src="logos/github-mark.svg"
-              alt="GitHub"
-              class="invert"
-            />
+          <a href="https://github.com/paperfox" target="_blank" rel="noreferrer">
+            <img src="./logos/github-mark.svg" alt="GitHub" class="invert" />
           </a>
         </li>
         <li class="m-3">
@@ -71,14 +59,11 @@ export function leftRail() {
             target="_blank"
             rel="noreferrer"
           >
-            <img
-              src="logos/linkedinlogo.svg"
-              alt="LinkedIn"
-            />
+            <img src="./logos/linkedinlogo.svg" alt="LinkedIn" />
           </a>
         </li>
       </ul>
   `;
 
-  containerArt.insertAdjacentHTML('afterbegin', html);
+  containerArt.insertAdjacentHTML("afterbegin", html);
 }
