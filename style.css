@@ -259,10 +259,11 @@ img {
   grid-column-end: span var(--columns);
   grid-row-start: 1;
   grid-row-end: 2;
+  width: min-content;
 
   background: rgba(var(--black), 0.7);
+  color: var(--white);
   border: none;
-  width: min-content;
   padding: var(--base-spacing);
   cursor: pointer;
 
