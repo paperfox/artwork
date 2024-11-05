@@ -7,6 +7,7 @@ import dataSketches from './sketchData.json';
 // To Do
 // Add all art data
 // add filtering
+// on clicking pagination, scroll to top of page
 
 export function openTab(evt, tabName) {
   const tabContent = document.getElementsByClassName('tab-content');
@@ -27,6 +28,7 @@ window.openTab = openTab;
 leftRail();
 // Main
 
+// why did this break my modals again?
 const owo2 = document.querySelector('.art-list-sketches');
 displayArt(dataSketches, owo2);
 const owo = document.querySelector('.art-list');

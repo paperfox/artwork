@@ -72,10 +72,10 @@ ul {
 }
 
 /* Layout */
-nav,
+aside,
 main { height: 100vh; }
 
-nav {
+aside {
   width: 40%;
   padding: 1.6rem;
   background-color: var(--secondary-bg);
@@ -84,28 +84,7 @@ nav {
 main {
   width: 60%;
   overflow-y: auto;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-@media (min-width: 1000px) {
-  nav  { width: 30%; }
-  main { width: 70%; }
-}
-
-@media (min-width: 1400px) {
-  nav  { width: 25%; }
-  main { width: 75%; }
-}
-
-@media (max-width: 768px) {
-  body {
-    display: block;
-    /* place-items: center; */
-  }
-  nav,
-  main { height: unset; }
-  nav  { width: 100%; }
-  main { width: 100%; }
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
 }
 
 /* Left Rail */
@@ -128,7 +107,7 @@ main {
 .nav-tabs {
   margin: 0;
   padding: 1.6rem 1.6rem 0 1.6rem;
-  box-shadow: inset 0px -4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 -.5rem .6rem rgba(0, 0, 0, 0.1);
 
   .tab-control {
     border: none;
@@ -138,12 +117,14 @@ main {
     border-bottom-right-radius: 0;
     cursor: pointer;
     color: var(--text-body);
-    background-color: rgba(255, 255, 255, 0.7);
+    font-weight: 600;
+    font-size: 1.6rem;
+    background-color: rgba(var(--white), 0.7);
     padding: var(--base-spacing) 1.6rem;
 
     &.active {
       background-color: var(--main-bg);
-      box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 -.5rem .5rem rgba((--black), 0.1);
     }
   }
 
@@ -194,16 +175,11 @@ details { padding: var(--base-spacing); }
   }
 }
 
-
-/* Modal
-
-/* The Modal (background) */
+/* Modal */
 .modal {
   position: fixed;
   top: 0;
   left: 0;
-  /* right: 0;
-  bottom: 0; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -217,7 +193,7 @@ details { padding: var(--base-spacing); }
   width: 100%;
  height: 100%;
 }
-/* Modal Content */
+
 .modal-content {
   display: flex;
 
@@ -296,4 +272,36 @@ img {
   }
 }
 
+/* Hides the modal button on the sketches page */
 .art-list-sketches .open-modal { display: none; }
+
+
+/* Responsive */
+@media (min-width: 1000px) {
+  aside  { width: 30%; }
+  main   { width: 70%; }
+}
+
+@media (min-width: 1400px) {
+  aside  { width: 25%; }
+  main   { width: 75%; }
+}
+
+@media (min-width: 768.02px) {
+  .mobile-only { display: none; }
+}
+
+@media (max-width: 768px) {
+  body   { display: block; }
+  aside,
+  main   { height: unset; }
+  aside  { width: 100%; }
+  main   {
+    width: 100%;
+    box-shadow: none;
+  }
+
+  .nav-tabs { background-color: var(--secondary-bg); }
+  .desktop-only { display: none; }
+  .social-links { width: 80%; }
+}

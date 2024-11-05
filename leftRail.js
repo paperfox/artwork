@@ -21,7 +21,7 @@ export function leftRail() {
           likely find her playing with her dog, or out in her garden.
         </p>
       </div>
-      <ul class="social-links">
+      <ul class="social-links desktop-only">
         <li class="m-3">
           <a
             href="https://www.instagram.com/paperfoxmakesart/"
