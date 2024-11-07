@@ -7,6 +7,7 @@ export function displayArt(arts, location) {
   const next = document.querySelector('.next');
   const last = document.querySelector('.last');
   const mainCont = document.querySelector('.main');
+  const pageCounter = () => (document.querySelector('.page-total').textContent = `${currentPage} of ${pageCount}`);
 
   let arrayList = [];
   let page = 0;
@@ -16,7 +17,7 @@ export function displayArt(arts, location) {
 
   const pageCount = Math.ceil(arts.length / paginationValue);
 
-  document.querySelector('.page-total').textContent = `${currentPage} of ${pageCount}`;
+  pageCounter();
 
   const paginator = () => {
     artList.innerHTML = '';
@@ -25,12 +26,12 @@ export function displayArt(arts, location) {
       artList.appendChild(arrayList[i]);
     }
 
-    const pageCount = Math.ceil(arrayList.length / paginationValue);
     currentPage = Math.ceil(page / paginationValue) + 1;
-    document.querySelector('.page-total').textContent = `${currentPage} of ${pageCount}`;
     currentPageArtwork = (currentPage - 1) * paginationValue;
 
     mainCont.scrollTo(0, 0);
+
+    pageCounter();
     modal(currentPageArtwork, arts);
   };
 
@@ -39,7 +40,7 @@ export function displayArt(arts, location) {
     li.innerHTML = `
       <div class="artpiece-${i}">
         <img src="./art/${art.link}" alt="${art.title}: ${art.desc}" />
-        <button type="button" class="open-modal" data-open="modal${i + 1}">${art.title}</button></div>
+        <button type="button" class="open-modal" data-open="modal${i + 1}"><span>${art.title}</span></button></div>
       </div>`;
     arrayList.push(li);
   });
