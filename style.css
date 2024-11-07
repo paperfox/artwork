@@ -21,13 +21,12 @@
   --secondary-bg: #f1f1f1;
   --modal-bg: #2d2f36;
   --text-body: #000000;
-  --accent: #a01818;
   --link: #a01818;
   --white: 255, 255, 255;
   --black: 0, 0, 0;
 
   /* Spacing */
-  --base-spacing: 0.8rem;
+  --base-spacing: .8rem;
   --xs-spacing: 1.6rem;
 
   /* Grid */
@@ -41,7 +40,6 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
   min-height: 100vh;
   font-size: 1.6rem;
   font-weight: 500;
@@ -83,23 +81,20 @@ main { height: 100vh; }
 
 aside {
   width: 40%;
-  padding: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: var(--xs-spacing);
   background-color: var(--secondary-bg);
 }
 
 main {
   width: 60%;
   overflow-y: auto;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 1rem rgba(var(--black), .1);
 }
 
-/* Left Rail */
-.left-rail {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
+/* Left Rail Content */
 .social-links {
   padding: var(--base-spacing);
   display: flex;
@@ -111,45 +106,42 @@ main {
 
 /* Main Content */
 .nav-tabs {
-  margin: 0;
   padding: 1.6rem 1.6rem 0 1.6rem;
-  box-shadow: inset 0 -.5rem .6rem rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 -.5rem .6rem rgba(0, 0, 0, .1);
 
   .tab-control {
     border: none;
-    border-top: 0.2rem solid var(--link);
-    border-radius: 0.4rem;
+    border-top: .2rem solid var(--link);
+    border-radius: .4rem;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     cursor: pointer;
     color: var(--text-body);
     font-weight: 600;
     font-size: 1.6rem;
-    background-color: rgba(var(--white), 0.7);
+    background-color: rgba(var(--white), .7);
     padding: var(--base-spacing) 1.6rem;
 
     &.active {
       background-color: var(--main-bg);
-      box-shadow: 0 -.5rem .5rem rgba((--black), 0.1);
+      box-shadow: 0 -.5rem .5rem rgba((--black), .1);
     }
   }
 
-  li + li { margin-left: 0.4rem; }
+  li + li { margin-left: .4rem; }
 }
 
-.tab-content { display: none; }
+.tab-content        { display: none; }
+.tab-content.active { display: block; }
 
-.tab-content.active {
-  display: block;
-  padding: var(--base-spacing);
-}
-
-.tabs,
-details { padding: var(--base-spacing); }
+details,
+.filters,
+.pagination,
+.modal .content,
+.tab-content.active { padding: var(--base-spacing); }
 
 .filters,
 .modal .content  {
-  padding: var(--base-spacing);
   display: flex;
 
   & > div + div { margin-left: 2.4rem; }
@@ -163,20 +155,76 @@ details { padding: var(--base-spacing); }
 }
 
 [class*='artpiece-'] {
-  display: inline-block;
+  display: grid;
+  grid-template-columns: repeat(var(--columns), 1fr);
+  /* align-items: end; */
+  width: min-content;
   padding: var(--base-spacing);
 
   &,
   img { height: 21rem; }
+
+  * {
+    grid-column-start: 1;
+    grid-column-end: span var(--columns);
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
 }
 
-.pagination-controller {
+.open-modal {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+
+  span {
+    background: rgba(var(--black), .7);
+    border: none;
+    padding: var(--base-spacing);
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  &:hover span,
+  &:focus-visible span {
+    background: rgba(var(--black), 1);
+    text-decoration: underline;
+  }
+}
+
+/* Hides the modal button on the sketches page */
+.art-list-sketches .open-modal { display: none; }
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: var(--base-spacing);
 
-  .tab-control {
+  li {
     padding: var(--base-spacing);
-    border-radius: 0.4rem;
+    border-radius: .4rem;
     cursor: pointer;
+    button { font-size: 4rem; }
+
+    button {
+      padding: 0 var(--base-spacing)var(--base-spacing);
+      color: var(--link);
+      margin: 0;
+      background: none;
+      border: none;
+
+      &:hover,
+      &:focus-visible {
+        color: var(--text-body);
+        text-decoration: underline;
+      }
+    }
   }
 }
 
@@ -189,14 +237,14 @@ details { padding: var(--base-spacing); }
   align-items: center;
   justify-content: center;
   padding: var(--base-spacing);
-  background: rgba(var(--black), 0.8);
+  background: rgba(var(--black), .8);
   cursor: pointer;
   visibility: hidden;
   opacity: 0;
-  transition: all 0.35s ease-in;
+  transition: all .35s ease-in;
   backdrop-filter: blur(3px);
   width: 100%;
- height: 100%;
+  height: 100%;
 }
 
 .modal-content {
@@ -216,7 +264,7 @@ details { padding: var(--base-spacing); }
   position: relative;
   max-width: 800px;
   max-height: 80vh;
-  border-radius: 5px;
+  border-radius: .4rem;
   background: var(--main-bg);
   overflow: auto;
   cursor: default;
@@ -245,39 +293,6 @@ details { padding: var(--base-spacing); }
   }
 }
 
-[class*='artpiece-'] {
-  display: grid;
-  grid-template-columns: repeat(var(--columns), 1fr);
-  align-items: end;
-  width: min-content;
-}
-
-img {
-  grid-column-start: 1;
-  grid-column-end: span var(--columns);
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-.open-modal {
-  grid-column-start: 1;
-  grid-column-end: span var(--columns);
-  grid-row-start: 1;
-  grid-row-end: 2;
-  background: rgba(var(--black), 0.7);
-  border: none;
-  padding: var(--base-spacing);
-  cursor: pointer;
-
-  &:hover,
-  &:focus-visible {
-    background: rgba(var(--black), 1);
-    text-decoration: underline;
-  }
-}
-
-/* Hides the modal button on the sketches page */
-.art-list-sketches .open-modal { display: none; }
 
 
 /* Responsive */
@@ -305,11 +320,7 @@ img {
     box-shadow: none;
   }
 
-  .nav-tabs { background-color: var(--secondary-bg); }
+  .nav-tabs     { background-color: var(--secondary-bg); }
   .desktop-only { display: none; }
   .social-links { width: 80%; }
-  .tabs {
-    display: flex;
-    justify-content: center;
-  }
 }
