@@ -8,11 +8,6 @@ import dataSketches from './data/sketchData.json';
 // Add all art data
 // add filtering
 
-const defaultTab = () => {
-  const finishedWork = document.querySelector('.art-list');
-  displayArt(dataArt, finishedWork);
-};
-
 export function openTab(evt, tabName) {
   const tabContent = document.getElementsByClassName('tab-content');
   const tabLinks = document.getElementsByClassName('tab-control');
@@ -22,9 +17,7 @@ export function openTab(evt, tabName) {
     tabLinks[i].className = tabLinks[i].className.replace(' active', '');
   }
 
-  if (tabName === 'artTab') {
-    defaultTab();
-  } else {
+  if (tabName === 'sketchTab') {
     const sketches = document.querySelector('.art-list-sketches');
     displayArt(dataSketches, sketches);
   }
@@ -38,7 +31,8 @@ window.openTab = openTab;
 leftRail();
 
 // Main
-defaultTab();
+const finishedWork = document.querySelector('.art-list');
+displayArt(dataArt, finishedWork);
 
 //
 // because I frequently need to know how many art pieces I have I'm leaving this here for now
