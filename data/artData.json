@@ -295,7 +295,7 @@
     "desc": "Digital portrait of the Raven Queen from A Practical Guide to Sorcery, holding feathers with feathers falling around her and her shadow shows a raven demon. Below her knees she dissolves into feathers.",
     "dimensions": "8x11 inches",
     "media": ["digital"],
-    "content": ["person", "fantasy"],
+    "content": ["people", "fantasy"],
     "forSale": false,
     "link": "raven_queen.jpg"
   },
@@ -417,6 +417,256 @@
     "link": "pancakes_with_henry.jpg"
   },
   {
+    "title": "Japanese River Otter",
+    "date": "Oct 30, 2023",
+    "desc": "Micron pen and watercolor of a Japanese River Otter on a fallen log with shelf fungi on it over a river.",
+    "dimensions": "6x9 inches",
+    "media": ["micron pen", "ink", "watercolor"],
+    "content": ["otter", "animal"],
+    "forSale": false,
+    "link": "japanese_river_otter.jpg"
+  },
+  {
+    "title": "Himalayan Brown Bear",
+    "date": "Oct 28, 2023",
+    "desc": "Micron pen and watercolor of a Himalayan Brown Bear sitting on a pile of rocks with the sunset in the background.",
+    "dimensions": "6x9 inches",
+    "media": ["micron pen", "ink", "watercolor"],
+    "content": ["bear", "animal"],
+    "forSale": false,
+    "link": "himalayan_brown_bear.jpg"
+  },
+  {
+    "title": "Indian Bison",
+    "date": "Oct 26, 2023",
+    "desc": "Portrait of the left half of an Indian Bison's face in watercolor.",
+    "dimensions": "6x9 inches",
+    "media": ["watercolor"],
+    "content": ["bison", "animal"],
+    "forSale": false,
+    "link": "indian_bison.jpg"
+  },
+  {
+    "title": "Indian Bison Ink",
+    "date": "Oct 25, 2023",
+    "desc": "Portrait of the right half of an Indian Bison's face in micron pen.",
+    "dimensions": "6x9 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["bison", "animal"],
+    "forSale": false,
+    "link": "indian_bison_ink.jpg"
+  },
+  {
+    "title": "Muddy Dragon",
+    "date": "Oct 31, 2021",
+    "desc": "Digital painting of a swimming Muddy Dragon looking at a glowing fish.",
+    "dimensions": "8x10 inches",
+    "media": ["digital"],
+    "content": ["alligator", "animal"],
+    "forSale": false,
+    "link": "muddy_dragon.jpg"
+  },
+  {
+    "title": "European Rabbit",
+    "date": "Oct 30, 2021",
+    "desc": "Digital drawing of a European Rabbit wearing a little blue Peter Rabbit jacket.",
+    "dimensions": "6x8 inches",
+    "media": ["digital"],
+    "content": ["rabbit", "animal"],
+    "forSale": false,
+    "link": "european_rabbit.jpg"
+  },
+  {
+    "title": "Bees",
+    "date": "Oct 29, 2021",
+    "desc": "Digital sketches of different bees that live in a New England garden.",
+    "dimensions": "10x10 inches",
+    "media": ["digital"],
+    "content": ["insect", "animal"],
+    "forSale": false,
+    "link": "bees.jpg"
+  },
+  {
+    "title": "Finnish Forest Reindeer",
+    "date": "Oct 28, 2021",
+    "desc": "Digital art of a druid reclining wearing a a reindeer skull mask with glowing red butterflies around him.",
+    "dimensions": "9x12 inches",
+    "media": ["digital"],
+    "content": ["butterfly", "people", "animal", "insect", "fantasy"],
+    "forSale": false,
+    "link": "finnish_forest_reindeer.jpg"
+  },
+  {
+    "title": "Jaguar",
+    "date": "Oct 27, 2021",
+    "desc": "Black and goal watercolor of a jaguar sitting in water.",
+    "dimensions": "6x8 inches",
+    "media": ["ink"],
+    "content": ["jaguar", "animal"],
+    "forSale": false,
+    "link": "jaguar.jpg"
+  },
+  {
+    "title": "Green Peafowl",
+    "date": "Oct 26, 2021",
+    "desc": "Watercolor of a peacock looking back over its shoulder at the viewer.",
+    "dimensions": "4x7 inches",
+    "media": ["watercolor"],
+    "content": ["bird", "animal"],
+    "forSale": false,
+    "link": "green_peafowl.jpg"
+  },
+  {
+    "title": "Rusty-spotted Cat",
+    "date": "Oct 25, 2021",
+    "desc": "Micron pen and watercolor of a rusty spotted cat sitting on a fence post looking at a bird.",
+    "dimensions": "5x5 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["frog", "animal"],
+    "forSale": false,
+    "link": "rusty_spotted_cat.jpg"
+  },
+  {
+    "title": "Honduran White Bat",
+    "date": "Oct 24, 2021",
+    "desc": "Micron pen and white ink drawing of 3 bats flying towards the viewer on brown paper.",
+    "dimensions": "3x3 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["bats", "animal"],
+    "forSale": false,
+    "link": "honduran_white_bat.jpg"
+  },
+  {
+    "title": "Gopher Frog",
+    "date": "Oct 23, 2021",
+    "desc": "Micron pen drawing of a frog jumping with a black brush stroke in the background.",
+    "dimensions": "6x6 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["frog", "animal"],
+    "forSale": false,
+    "link": "gopher_frog.jpg"
+  },
+  {
+    "title": "Long-whiskered Owlet",
+    "date": "Oct 22, 2021",
+    "desc": "Micron pen drawing of an owlet with the night sky behind it.",
+    "dimensions": "6x6 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["owl", "animal"],
+    "forSale": false,
+    "link": "long_whiskered_owlet.jpg"
+  },
+  {
+    "title": "Yangtze Giant Soft Shell Turtle",
+    "date": "Oct 21, 2021",
+    "desc": "Micron pen line art of three turtles swimming around a sword.",
+    "dimensions": "6x6 inches",
+    "media": ["digital"],
+    "content": ["turtle", "animal"],
+    "forSale": false,
+    "link": "yangtze_giant_soft_shell_turtle.jpg"
+  },
+  {
+    "title": "Horseshoe Crab",
+    "date": "Oct 20, 2021",
+    "desc": "Watercolor portrait splatter creating the silhouette of a horseshoe crab in the negative space.",
+    "dimensions": "4x9 inches",
+    "media": ["watercolor"],
+    "content": ["crab", "animal"],
+    "forSale": false,
+    "link": "horseshoe_crab.jpg"
+  },
+  {
+    "title": "Philippine Eagle-owl",
+    "date": "Oct 19, 2021",
+    "desc": "Watercolor portrait of Philippine Eagle-owl looking surprised back over it's shoulder.",
+    "dimensions": "6x6 inches",
+    "media": ["watercolor"],
+    "content": ["bird", "animal"],
+    "forSale": false,
+    "link": "philippine_eagle_owl.jpg"
+  },
+  {
+    "title": "Elkhorn Coral ",
+    "date": "Oct 18, 2021",
+    "desc": "Orange and blue watercolor of an Elkhorn Coral.",
+    "dimensions": "4x4 inches",
+    "media": ["watercolor"],
+    "content": ["coral", "plant"],
+    "forSale": false,
+    "link": "elkhorn_coral.jpg"
+  },
+  {
+    "title": "Wolverine",
+    "date": "Oct 17, 2021",
+    "desc": "Micron pen drawing a wolverine sitting on a fence post with the night sky and big dipper in the background.",
+    "dimensions": "6x6 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["wolverine", "animal"],
+    "forSale": false,
+    "link": "wolverine.jpg"
+  },
+  {
+    "title": "Southern Cassowary",
+    "date": "Oct 16, 2021",
+    "desc": "Digital line art of a southern cassowary and a tiny dinosaur.",
+    "dimensions": "6x9 inches",
+    "media": ["digital"],
+    "content": ["bird", "dinosaur", "animal"],
+    "forSale": false,
+    "link": "southern_cassowary.jpg"
+  },
+  {
+    "title": "Sun Bear",
+    "date": "Oct 15, 2021",
+    "desc": "Micron pen, ink, and watercolor of a Sun Bear sitting surrounded by cups and pumpkins holding a glowing pumpkin.",
+    "dimensions": "6x9 inches",
+    "media": ["micron pen", "ink", "watercolor"],
+    "content": ["bear", "animal"],
+    "forSale": false,
+    "link": "sun_bear.jpg"
+  },
+  {
+    "title": "Sea Tangle",
+    "date": "Oct 14, 2021",
+    "desc": "Micron pen and watercolor of a merman running his hands up a strand of sea tangle.",
+    "dimensions": "8x10 inches",
+    "media": ["micron pen", "ink", "watercolor"],
+    "content": ["people", "plant", "fantasy"],
+    "forSale": false,
+    "link": "sea_tangle.jpg"
+  },
+  {
+    "title": "Mao",
+    "date": "Oct 13, 2021",
+    "desc": "Black and gold ink painting of a mao bird on a branch.",
+    "dimensions": "6x8 inches",
+    "media": ["ink"],
+    "content": ["bird", "animal"],
+    "forSale": false,
+    "link": "mao.jpg"
+  },
+  {
+    "title": "Large Blue Butterfly",
+    "date": "Oct 12, 2021",
+    "desc": "Watercolor and ink painting of a Large blue butterfly flying with gold ink splatters.",
+    "dimensions": "6x8 inches",
+    "media": ["watercolor", "ink"],
+    "content": ["butterfly", "animal", "insect"],
+    "forSale": false,
+    "link": "large_blue_butterfly.jpg"
+  },
+  {
+    "title": "Amazonian Manatee",
+    "date": "Oct 11, 2021",
+    "desc": "Micron pen drawing of a manatee greeting a mermaid with a manatee tail.",
+    "dimensions": "8.5x11 inches",
+    "media": ["micron pen", "ink"],
+    "content": ["manatee", "animal", "people", "fantasy"],
+    "forSale": false,
+    "link": "amazonian_manatee.jpg"
+  },
+  {
     "title": "Mangroves",
     "date": "Oct 10, 2021",
     "desc": "Simple watercolor of a mangrove with the water line creating a break in the painting and the roots become paint drips.",
@@ -525,6 +775,16 @@
     "content": ["catboy", "animal", "people", "fantasy", "fanart"],
     "forSale": false,
     "link": "tarquin.jpg"
+  },
+  {
+    "title": "Almost Rabbits, II",
+    "date": "May 2, 2021",
+    "desc": "Woodblock print of a pair of jackalopes looking up at the full moon next to a leafless tree, the moon has a silhouette of a rabbit making medicine in it.",
+    "dimensions": "5x7 inches",
+    "media": ["woodblock", "printmaking"],
+    "content": ["rabbit", "animal", "fantasy"],
+    "forSale": false,
+    "link": "almost_rabbits_II.jpg"
   },
   {
     "title": "Yoga Dogs",
@@ -938,7 +1198,7 @@
     "link": "just_before_dawn.jpg"
   },
   {
-    "title": "Almost Rabbits",
+    "title": "Almost Rabbits, I",
     "date": "Dec 13, 2019",
     "desc": "Woodblock print of a pair of jackalopes looking up at the full moon, the moon has a silhouette of a rabbit making medicine in it.",
     "dimensions": "5x7 inches",
@@ -966,6 +1226,16 @@
     "content": "",
     "forSale": false,
     "link": "a_small_hunt.jpg"
+  },
+  {
+    "title": "Almost Rabbits",
+    "date": "Nov 20, 2019",
+    "desc": "Watercolor of a pair of jackalopes looking up at the full moon next to a leafless tree, the moon has a silhouette of a rabbit making medicine in it.",
+    "dimensions": "5x7 inches",
+    "media": ["watercolor", "ink"],
+    "content": ["rabbit", "animal", "fantasy"],
+    "forSale": false,
+    "link": "almost_rabbits_watercolor.jpg"
   },
   {
     "title": "Adding Wings to a Tiger",
