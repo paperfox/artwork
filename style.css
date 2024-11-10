@@ -357,5 +357,6 @@ details,
   .social-links .filter-black {
     filter: brightness(100%) saturate(100%);
     -webkit-filter: brightness(100%) saturate(100%);
+    background-color: white;
   }
 }
