@@ -7,23 +7,31 @@
   font-family: 'Quicksand', Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
 
-  color-scheme: light dark;
-  color: #242424;
-  background-color: #fefefe;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
   /* Colors */
-  --main-bg: #ffffff;
-  --secondary-bg: #f1f1f1;
+  --main-bg: #282a31;
+  --secondary-bg: #14151a;
   --modal-bg: #2d2f36;
-  --text-body: #000000;
-  --link: #a01818;
+  --text-body: #d4d4d6;
+  --link: #DE7826;
+
+  @media (prefers-color-scheme: light) {
+    --main-bg: #ffffff;
+    --secondary-bg: #f1f1f1;
+    --modal-bg: #2d2f36;
+    --text-body: #000000;
+    --link: #a01818;
+  }
+
   --white: 255, 255, 255;
   --black: 0, 0, 0;
+
+  color: var(--text-body);
+  background-color: var(--main-bg);
 
   /* Spacing */
   --base-spacing: .8rem;
