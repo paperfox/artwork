@@ -60,16 +60,6 @@
     "link": "sketch-dragon.jpg"
   },
   {
-    "title": "Dragon and Marine Iguana",
-    "date": "Oct 8, 2024",
-    "desc": "Sketch of a dragon climbing a spire and a study of a marine iguana swiming.",
-    "dimensions": "5x7.5 inches",
-    "media": "10 color pen",
-    "content": "",
-    "forSale": false,
-    "link": "sketch-dragon.jpg"
-  },
-  {
     "title": "Pernambuco Pygmy-owl",
     "date": "Oct 7, 2024",
     "desc": "Sketch of a Pernambuco Pygmy-owl with branches in the background.",
@@ -80,7 +70,7 @@
     "link": "sketch-owl.jpg"
   },
   {
-    "title": "White-crowned Hornbill",
+    "title": "White-crowned Hornbills",
     "date": "Oct 5, 2024",
     "desc": "Sketch of two White-crowned Hornbills chasing each other amongst branches.",
     "dimensions": "5x7.5 inches",
@@ -108,6 +98,56 @@
     "content": "",
     "forSale": false,
     "link": "sketch-redpanda.jpg"
+  },
+  {
+    "title": "Wolf Eldritch Demon",
+    "date": "Sep 28, 2024",
+    "desc": "Sketch of a wolf demon creature with many eyes and a long tail with an eyeball held in it.",
+    "dimensions": "5x7.5 inches",
+    "media": "10 color pen",
+    "content": "",
+    "forSale": false,
+    "link": "sketch-wolf-demon.jpg"
+  },
+  {
+    "title": "Miko",
+    "date": "Sep 28, 2024",
+    "desc": "Sketch of Miko the shiba inu looking down into a pool of water.",
+    "dimensions": "5x7.5 inches",
+    "media": "10 color pen",
+    "content": "",
+    "forSale": false,
+    "link": "sketch-miko.jpg"
+  },
+  {
+    "title": "Snake",
+    "date": "Sep 28, 2024",
+    "desc": "Sketch of a snake wearing a party hat.",
+    "dimensions": "5x7.5 inches",
+    "media": "10 color pen",
+    "content": "",
+    "forSale": false,
+    "link": "sketch-snake.jpg"
+  },
+  {
+    "title": "Jackalope Mount",
+    "date": "Sep 28, 2024",
+    "desc": "Sketch of a jackalope with a saddle.",
+    "dimensions": "5x7.5 inches",
+    "media": "10 color pen",
+    "content": "",
+    "forSale": false,
+    "link": "sketch-jackalope.jpg"
+  },
+  {
+    "title": "Goldfinch",
+    "date": "Sep 28, 2024",
+    "desc": "Sketch of a goldfinch on a sunflower.",
+    "dimensions": "5x7.5 inches",
+    "media": "10 color pen",
+    "content": "",
+    "forSale": false,
+    "link": "sketch-goldfinch.jpg"
   },
   {
     "title": "Play",

@@ -88,7 +88,11 @@ ul {
 /* Layout */
 main,
 aside  { height: 100vh; }
-footer { width: 100%; }
+
+footer {
+  width: 100%;
+  margin: var(--xs-spacing) auto;
+}
 
 aside {
   width: 40%;
@@ -308,8 +312,6 @@ details,
   }
 }
 
-
-
 /* Responsive */
 @media (min-width: 1000px) {
   aside  { width: 30%; }
@@ -343,6 +345,8 @@ details,
     margin-inline: auto;
   }
 
+  [class*='art-list'] li { width: 50%; }
+
   [class*='artpiece-'] {
     &,
     img {
@@ -351,6 +355,11 @@ details,
     }
   }
 }
+
+@media (max-width: 580px) {
+  [class*='art-list'] li { width: 100%; }
+}
+
 
 
 @media (prefers-color-scheme: dark) {
