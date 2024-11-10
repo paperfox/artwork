@@ -363,5 +363,8 @@ details,
 
 
 @media (prefers-color-scheme: light) {
-  .social-links .filter-black { filter: brightness(0) saturate(100%); }
+  .social-links .filter-black {
+    -webkit-filter: brightness(0) saturate(100%);
+    filter: brightness(0) saturate(100%);
+  }
 }
