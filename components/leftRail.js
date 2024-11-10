@@ -28,7 +28,7 @@ export function leftRail() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src="./logos/instagramlogo.svg" alt="Instagram" class="invert" />
+            <img src="./logos/instagramlogo.svg" alt="Instagram" />
           </a>
         </li>
         <li class="m-3">
@@ -50,7 +50,7 @@ export function leftRail() {
         </li>
         <li class="m-3">
           <a href="https://github.com/paperfox" target="_blank" rel="noreferrer">
-            <img src="./logos/github-mark.svg" alt="GitHub" class="invert" />
+            <img src="./logos/github-mark.svg" alt="GitHub" />
           </a>
         </li>
         <li class="m-3">
