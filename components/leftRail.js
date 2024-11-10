@@ -33,7 +33,7 @@ export function leftRail() {
         </li>
         <li class="m-3">
           <a href="https://cara.app/paperfox" target="_blank" rel="noreferrer">
-            <img src="./logos/cara-app-logo-circle-White.svg" alt="Cara" />
+            <img src="./logos/cara-app-logo-circle.svg" alt="Cara" />
           </a>
         </li>
         <li class="m-3">
