@@ -355,8 +355,8 @@ details,
 
 @media (prefers-color-scheme: dark) {
   .social-links .filter-black {
-    filter: brightness(100%) saturate(100%);
+    /* filter: brightness(100%) saturate(100%);
     -webkit-filter: brightness(100%) saturate(100%);
-    background-color: white;
+    background-color: white; */
   }
 }
