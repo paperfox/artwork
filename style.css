@@ -342,7 +342,17 @@ details,
     width: 80%;
     margin-inline: auto;
   }
+
+  [class*='artpiece-'] {
+    &,
+    img {
+      height: auto;
+      width: 100%;
+    }
+  }
 }
 
 
-.filter-black { filter: brightness(0) saturate(100%) }
+@media (prefers-color-scheme: dark) {
+.social-links .filter-black { filter: brightness(100%) saturate(100%) }
+}
