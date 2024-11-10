@@ -363,7 +363,7 @@ details,
 
 
 @media (prefers-color-scheme: light) {
-  .social-links .filter-black {
+  .social-links .light-mode {
     -webkit-filter: brightness(0) saturate(100%);
     filter: brightness(0) saturate(100%);
   }
