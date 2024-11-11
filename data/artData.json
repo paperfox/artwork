@@ -4,7 +4,7 @@
     "date": "Oct 30, 2024",
     "desc": "Watercolor painting of a Mountain Zebra in gray and red, imitating flames and smoke.",
     "dimensions": "6x9 inches",
-    "media": ["watercolor", "painting"],
+    "media": ["watercolor"],
     "content": ["zebra", "animal"],
     "forSale": false,
     "link": "mountain_zebra.jpg"
@@ -24,7 +24,7 @@
     "date": "Oct 28, 2024",
     "desc": "Micron pen and watercolor of a takahe, a flightless blue-green bird, in a dancing pose.",
     "dimensions": "3x4 inches",
-    "media": ["watercolor", "painting", "micron pen", "ink"],
+    "media": ["watercolor", "micron pen", "ink"],
     "content": ["bird", "animal"],
     "forSale": false,
     "link": "takahe.jpg"
@@ -34,7 +34,7 @@
     "date": "Oct 28, 2024",
     "desc": "Micron pen and watercolor of a panda sleeping on a crescent moon with 4 swords hanging below them.",
     "dimensions": "6x9 inches",
-    "media": ["watercolor", "painting", "micron pen", "ink"],
+    "media": ["watercolor", "micron pen", "ink"],
     "content": ["panda", "animal"],
     "forSale": false,
     "link": "giant_panda.jpg"
@@ -285,7 +285,7 @@
     "desc": "Micron pen line art for fan art I'm working on of He Who Fights With Monsters of characters Jason and Colin. Jason is holding a lemonade and about to step of a ledge, Colin is a pile of leeches following behind him.",
     "dimensions": "8x10 inches",
     "media": ["micron pen", "ink"],
-    "content": ["animal", "people", "fantasy"],
+    "content": ["animal", "people", "fantasy", "fanart"],
     "forSale": false,
     "link": "jason_and_colin_lines.jpg"
   },
@@ -295,7 +295,7 @@
     "desc": "Digital portrait of the Raven Queen from A Practical Guide to Sorcery, holding feathers with feathers falling around her and her shadow shows a raven demon. Below her knees she dissolves into feathers.",
     "dimensions": "8x11 inches",
     "media": ["digital"],
-    "content": ["people", "fantasy"],
+    "content": ["people", "fantasy", "fanart"],
     "forSale": false,
     "link": "raven_queen.jpg"
   },
@@ -412,7 +412,7 @@
     "desc": "Micron pen and watercolor of a boy sitting on a kitchen chair eating pancakes with a multi-eyed, multi-mouthed, tentacled dark purple eldritch horror lit by a staff with a lantern on it.",
     "dimensions": "9x12 inches",
     "media": ["micron pen", "ink", "watercolor"],
-    "content": ["demon", "horror", "fantasy", "people"],
+    "content": ["demon", "horror", "fantasy", "people", "fanart"],
     "forSale": false,
     "link": "pancakes_with_henry.jpg"
   },
@@ -691,7 +691,7 @@
     "date": "Oct 9, 2021",
     "desc": "Blue, purple and teal abstract background with a Reeve's Pheasant inspired Luan mythological bird flying over it carying a black ribbon with a jingle bell.",
     "dimensions": "7x9 inches",
-    "media": ["watercolor", "acrylic"],
+    "media": ["watercolor", "acrylic", "painting"],
     "content": ["bird", "animal", "fantasy"],
     "forSale": false,
     "link": "reeve_s_pheasant.jpg"
@@ -1132,8 +1132,8 @@
     "date": "Apr 19, 2020",
     "desc": "Watercolor portrait of grumpy cat, grumpy cat fan art.",
     "dimensions": "8x10 inches",
-    "media": "",
-    "content": "",
+    "media": ["watercolor"],
+    "content": ["cat", "animal", "fanart"],
     "forSale": false,
     "link": "grumpy_cat.jpg"
   },
@@ -1152,8 +1152,8 @@
     "date": "Apr 7, 2020",
     "desc": "micron pen and watercolor portrait on brown paper of a viera white mage, FFXIV fan art",
     "dimensions": "4x6 inches",
-    "media": "",
-    "content": "",
+    "media": ["micron pen", "ink", "watercolor"],
+    "content": ["people", "fantasy", "fanart"],
     "forSale": false,
     "link": "for_the_blood_god.jpg"
   },
@@ -1162,8 +1162,8 @@
     "date": "Mar 31, 2020",
     "desc": "Digital portrait of a miqo'te, FFXIV fan art.",
     "dimensions": "5x5 inches",
-    "media": "",
-    "content": "",
+    "media": ["digital"],
+    "content": ["people", "fantasy", "fanart"],
     "forSale": false,
     "link": "miqo_te.jpg"
   },
@@ -1202,8 +1202,8 @@
     "date": "Dec 13, 2019",
     "desc": "Woodblock print of a pair of jackalopes looking up at the full moon, the moon has a silhouette of a rabbit making medicine in it.",
     "dimensions": "5x7 inches",
-    "media": "",
-    "content": "",
+    "media": ["woodblock", "printmaking"],
+    "content": ["rabbit", "animal", "fantasy"],
     "forSale": false,
     "link": "almost_rabbits.jpg"
   },
@@ -1212,8 +1212,8 @@
     "date": "Dec 5, 2019",
     "desc": "Micron pen and brown watercolor painting of a miqo'te, a catboy, white mage holding a staff. FFXIV fan art.",
     "dimensions": "6x10 inches",
-    "media": "",
-    "content": "",
+    "media": ["micron pen", "ink", "watercolor"],
+    "content": ["people", "fantasy", "fanart"],
     "forSale": false,
     "link": "white_mage.jpg"
   },
@@ -1282,8 +1282,8 @@
     "date": "Oct 29, 2019",
     "desc": "micron pen and watercolor on brown paper of Alpha, the simulated chocobo, and a silhouette of omega with the galaxy in it, FFXIV fan art",
     "dimensions": "6x8 inches",
-    "media": "",
-    "content": "",
+    "media": ["micron pen", "ink", "watercolor"],
+    "content": ["vehicle", "fantasy", "fanart"],
     "forSale": false,
     "link": "alpha_and_omega.jpg"
   },
@@ -1372,8 +1372,8 @@
     "date": "Jul 22, 2018",
     "desc": "micron pen and colored pencil of a mixed breed hound dog",
     "dimensions": "9x12 inches",
-    "media": "",
-    "content": "",
+    "media": ["micron pen", "ink", "colored pencil"],
+    "content": ["dog", "animal"],
     "forSale": false,
     "link": "the_jeebs.jpg"
   },
@@ -1382,8 +1382,8 @@
     "date": "Jul 2, 2018",
     "desc": "micron pen and watercolor painting of two german shepherd puppies touching noses and paws to make a heart",
     "dimensions": "8x18 inches",
-    "media": "",
-    "content": "",
+    "media": ["micron pen", "ink", "watercolor"],
+    "content": ["dog", "animal"],
     "forSale": false,
     "link": "family_portrait.jpg"
   },
@@ -1392,8 +1392,8 @@
     "date": "Dec 1, 2016",
     "desc": "A pair of red jindos looking up at an oak tree.",
     "dimensions": "9x12 inches",
-    "media": "",
-    "content": "",
+    "media": ["micron pen", "ink", "watercolor"],
+    "content": ["dog", "animal"],
     "forSale": false,
     "link": "red_jindos_pet_portrait.jpg"
   },
@@ -1402,8 +1402,8 @@
     "date": "Jan 23, 2015",
     "desc": "micron pen and watercolor painting of two german shepherd puppies touching noses and paws to make a heart",
     "dimensions": "8x18 inches",
-    "media": "",
-    "content": "",
+    "media": ["micron pen", "ink", "watercolor"],
+    "content": ["dog", "animal"],
     "forSale": false,
     "link": "shepherds_of_love.jpg"
   },
@@ -1412,8 +1412,8 @@
     "date": "Jan 27, 2015",
     "desc": "micron and watercolor of a white jindo with a black and white rabbit riding on it with a castle in the background",
     "dimensions": "6x9 inches",
-    "media": "",
-    "content": "",
+    "media": ["micron pen", "ink", "watercolor"],
+    "content": ["dog", "animal", "fantasy"],
     "forSale": false,
     "link": "noble_steed.jpg"
   },
@@ -1422,8 +1422,8 @@
     "date": "Jan 23, 2015",
     "desc": "micron pen and watercolor of dog dressed as spiderman climbing a tree",
     "dimensions": "6x9 inches",
-    "media": "",
-    "content": "",
+    "media": ["micron pen", "ink", "watercolor"],
+    "content": ["dog", "animal", "fantasy", "fanart"],
     "forSale": false,
     "link": "spiderdog.jpg"
   },
@@ -1492,8 +1492,8 @@
     "date": "Dec 24, 2014",
     "desc": "acrylic painting of a catahoula/pointer mix dog in white, blue, and orange",
     "dimensions": "6x9 inches",
-    "media": "",
-    "content": "",
+    "media": ["acrylic", "painting"],
+    "content": ["dog", "animal"],
     "forSale": false,
     "link": "rudy.jpg"
   },
@@ -1554,7 +1554,7 @@
     "date": "Jan 14, 2010",
     "desc": "sculpture of an anthropomorphic gray wolf woman with gold upper arm bands, a scar across her left eye that goes down her body, and a knee pad",
     "dimensions": "9x12 inches",
-    "media": ["sculpture", "sculpey", "acrylic"],
+    "media": ["sculpture", "sculpey", "acrylic", "painting"],
     "content": ["wolf", "anthro", "fantasy", "animal"],
     "forSale": false,
     "link": "nightsong_commission.jpg"
@@ -1574,7 +1574,7 @@
     "date": "Dec 8, 2009",
     "desc": "sculpture of a copper colored phoenix",
     "dimensions": "8x8 inches",
-    "media": ["sculpture", "sculpey", "acrylic"],
+    "media": ["sculpture", "sculpey", "acrylic", "painting"],
     "content": ["phoenix", "fantasy", "animal"],
     "forSale": false,
     "link": "copper_phoenix.jpg"
@@ -1584,7 +1584,7 @@
     "date": "Nov 19, 2009",
     "desc": "sculpture of a red wolf",
     "dimensions": "3x5 inches",
-    "media": ["sculpture", "sculpey", "acrylic"],
+    "media": ["sculpture", "sculpey", "acrylic", "painting"],
     "content": ["wolf", "animal"],
     "forSale": false,
     "link": "red_sculpture.jpg",
@@ -1605,7 +1605,7 @@
     "date": "Nov 7, 2009",
     "desc": "watercolor and micron pen of a horse reaching it's head over a fence",
     "dimensions": "9x12 inches",
-    "media": ["micron pen", "watercolor", "painting"],
+    "media": ["micron pen", "watercolor"],
     "content": ["horse", "animal"],
     "forSale": false,
     "link": "the_other_side.jpg"
@@ -1615,7 +1615,7 @@
     "date": "Nov 1, 2009",
     "desc": "watercolor and micron pen of a classic car",
     "dimensions": "2.5x3.5 inches",
-    "media": ["micron pen", "watercolor", "painting"],
+    "media": ["micron pen", "watercolor"],
     "content": ["car", "vehicle"],
     "forSale": false,
     "link": "classic.jpg"
@@ -1635,7 +1635,7 @@
     "date": "Sep 21, 2009",
     "desc": "watercolor of a mink skeleton facing the viewer",
     "dimensions": "9x12 inches",
-    "media": ["watercolor", "painting"],
+    "media": ["watercolor"],
     "content": ["mink", "skeleton", "animal"],
     "forSale": false,
     "link": "portrait_of_a_mink.jpg"
@@ -1645,7 +1645,7 @@
     "date": "Aug 15, 2009",
     "desc": "sculpture of a cat with ram horns standing on rocks",
     "dimensions": "10x5 inches",
-    "media": ["sculpture", "sculpey", "acrylic"],
+    "media": ["sculpture", "sculpey", "acrylic", "painting"],
     "content": ["cat", "animal", "fantasy"],
     "forSale": false,
     "link": "mountain_god.jpg"
@@ -1655,7 +1655,7 @@
     "date": "Jul 20, 2009",
     "desc": "watercolor and micron pen of a border collie watching cows",
     "dimensions": "2.5x3.5 inches",
-    "media": ["micron pen", "watercolor", "painting"],
+    "media": ["micron pen", "watercolor"],
     "content": ["dog", "cow", "animal"],
     "forSale": false,
     "link": "herd_watching.jpg"
@@ -1665,7 +1665,7 @@
     "date": "Mar 18, 2009",
     "desc": "watercolor painting of a blue butterfly escaping a cage",
     "dimensions": "10x10 inches",
-    "media": ["watercolor", "painting"],
+    "media": ["watercolor"],
     "content": ["butterfly", "animal", "fantasy"],
     "forSale": false,
     "link": "soul.jpg"
@@ -1675,7 +1675,7 @@
     "date": "Mar 18, 2009",
     "desc": "Leather necklace with 2 cats playing",
     "dimensions": "3 inches",
-    "media": ["sculpture", "sculpey", "acrylic", "mixed media", "jewelry"],
+    "media": ["sculpture", "sculpey", "acrylic", "mixed media", "jewelry", "painting"],
     "content": ["cat", "animal"],
     "forSale": false,
     "link": "jester_and_the_ninja.jpg"
@@ -1685,7 +1685,7 @@
     "date": "Mar 4, 2009",
     "desc": "watercolor fox running along a horizon with a sunset and stars in the background",
     "dimensions": "10x14 inches",
-    "media": ["watercolor", "painting"],
+    "media": ["watercolor"],
     "content": ["fox", "animal", "fantasy"],
     "forSale": false,
     "link": "sunset_on_the_cosmos.jpg"
@@ -1695,7 +1695,7 @@
     "date": "Jan 14, 2009",
     "desc": "micron pen and watercolor painting of a galapgos land iguana on a red rock with cactuses in the background",
     "dimensions": "8x18 inches",
-    "media": ["micron pen", "watercolor", "painting"],
+    "media": ["micron pen", "watercolor"],
     "content": ["iguana", "animal", "fantasy"],
     "forSale": false,
     "link": "galapagos.jpg"
@@ -1705,7 +1705,7 @@
     "date": "Dec 12, 2008",
     "desc": "watercolor and micron pen of a fox in a harness with jingle bells pulling a sleigh in the snow talking to a rabbit",
     "dimensions": "2.5x3.5 inches",
-    "media": ["micron pen", "watercolor", "painting"],
+    "media": ["micron pen", "watercolor"],
     "content": ["fox", "rabbit", "animal", "fantasy"],
     "forSale": false,
     "link": "christmas_in_the_woods.jpg"
@@ -1715,7 +1715,7 @@
     "date": "Dec 11, 2008",
     "desc": "watercolor and micron pen of a cattle dog wearing a santa hat sitting next to a christmas tree",
     "dimensions": "2.5x3.5 inches",
-    "media": ["micron pen", "watercolor", "painting"],
+    "media": ["micron pen", "watercolor"],
     "content": ["dog", "animal"],
     "forSale": false,
     "link": "time_to_decorate.jpg"
@@ -1725,7 +1725,7 @@
     "date": "Dec 10, 2008",
     "desc": "watercolor and micron pen of a hamster holding holly berries and leaves on a shelf",
     "dimensions": "2.5x3.5 inches",
-    "media": ["micron pen", "watercolor", "painting"],
+    "media": ["micron pen", "watercolor"],
     "content": ["hamster", "animal"],
     "forSale": false,
     "link": "littlest_helper.jpg"
@@ -1745,7 +1745,7 @@
     "date": "Aug 12, 2008",
     "desc": "commissioned piece of a raven with a holding a quill pen",
     "dimensions": "2.5x3.5 inches",
-    "media": ["micron pen", "watercolor", "painting"],
+    "media": ["micron pen", "watercolor"],
     "content": ["raven", "animal", "fantasy"],
     "forSale": false,
     "link": "corvus_research_project.jpg"
@@ -1765,7 +1765,7 @@
     "date": "Jun 27, 2008",
     "desc": "rabbit holding a flower for a bee",
     "dimensions": "2.5x3.5 inches",
-    "media": ["micron pen", "watercolor", "painting"],
+    "media": ["micron pen", "watercolor"],
     "content": ["rabbit", "bee", "animal"],
     "forSale": false,
     "link": "helping_the_honey_bee.jpg"
@@ -1805,7 +1805,7 @@
     "date": "Apr 22, 2008",
     "desc": "sculpture of a little girl dragging a demonic wolf to bed",
     "dimensions": "6x12 inches",
-    "media": ["sculpture", "sculpey", "acrylic", "mixed media"],
+    "media": ["sculpture", "sculpey", "acrylic", "mixed media", "painting"],
     "content": ["wolf", "demon", "child", "fantasy", "animal"],
     "forSale": false,
     "link": "time_for_bed_mr_demon.jpg",
@@ -1906,7 +1906,7 @@
     "date": "Nov 21, 2007",
     "desc": "Watercolor painting of a anthropomorphic wolf painting in the sea.",
     "dimensions": "8.5x11 inches",
-    "media": ["watercolor", "painting", "painting"],
+    "media": ["watercolor"],
     "content": ["wolf", "anthro", "fantasy", "animal"],
     "forSale": false,
     "link": "goddess_of_the_sea.jpg"
