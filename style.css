@@ -271,7 +271,10 @@ details,
 
   &,
   div { margin: var(--base-spacing);}
-  img {max-height: 50vh;}
+  img {
+    max-width: 50vw;
+    max-height: 75vh;
+  }
 }
 
 .modal.is-visible {
@@ -281,8 +284,8 @@ details,
 
 .modal-dialog {
   position: relative;
-  max-width: 800px;
-  max-height: 80vh;
+  max-width: 90%;
+  max-height: 90%;
   border-radius: .4rem;
   background: var(--main-bg);
   overflow: auto;
@@ -328,12 +331,17 @@ details,
 }
 
 @media (max-width: 768px) {
-  body          { display: block; }
+  body           { display: block; }
   aside,
-  main          { height: unset; }
-  aside         { width: 100%; }
-  .nav-tabs     { background-color: var(--secondary-bg); }
-  .desktop-only { display: none; }
+  main           { height: unset; }
+  aside          { width: 100%; }
+  .nav-tabs      { background-color: var(--secondary-bg); }
+  .desktop-only  { display: none; }
+  .modal-content {
+    flex-direction: column;
+
+    img { max-width: 100%; }
+  }
 
   main   {
     width: 100%;
