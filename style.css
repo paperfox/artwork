@@ -315,6 +315,9 @@ details,
   }
 }
 
+/* stop background scrolling  */
+.no-scroll { overflow: hidden; }
+
 /* Responsive */
 @media (min-width: 1000px) {
   aside  { width: 30%; }

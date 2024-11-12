@@ -4,7 +4,10 @@ export function modal(currentPageArtwork, arts) {
   const modalContainer = document.getElementById('art-modal');
   const isVisible = 'is-visible';
 
-  const closeModal = () => document.querySelector('.modal.is-visible').classList.remove(isVisible);
+  const closeModal = () => {
+    document.querySelector('.modal.is-visible').classList.remove(isVisible);
+    document.body.classList.remove('no-scroll');
+  };
 
   for (const [i, el] of openEls.entries()) {
     const artwork = i + currentPageArtwork;
@@ -12,6 +15,7 @@ export function modal(currentPageArtwork, arts) {
     el.addEventListener('click', () => {
       closeEls[0].focus();
       modalContainer.classList.add(isVisible);
+      document.body.classList.add('no-scroll');
       modalContainer.querySelector('.modal-title').textContent = arts[artwork].title;
       modalContainer.querySelector('.modal-content').innerHTML = `
         <div>
@@ -31,6 +35,7 @@ export function modal(currentPageArtwork, arts) {
   for (const el of closeEls) {
     el.addEventListener('click', function () {
       modalContainer.classList.remove(isVisible);
+      document.body.classList.remove('no-scroll');
     });
   }
 
