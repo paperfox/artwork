@@ -33,6 +33,22 @@ export function displayArt(arts, location) {
 
     pageCounter();
     modal(currentPageArtwork, arts);
+
+    if (currentPage === pageCount) {
+      next.setAttribute('disabled', '');
+      last.setAttribute('disabled', '');
+    } else {
+      next.removeAttribute('disabled');
+      last.removeAttribute('disabled');
+    }
+
+    if (currentPage === 1) {
+      prev.setAttribute('disabled', '');
+      first.setAttribute('disabled', '');
+    } else {
+      prev.removeAttribute('disabled');
+      first.removeAttribute('disabled');
+    }
   };
 
   arts.forEach((art, i) => {

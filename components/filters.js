@@ -17,22 +17,22 @@ export function filter(arts) {
   const btnFilterVehicle = document.querySelector('#filter-vehicles');
 
   const filterButtons = [
-    btnFilterWatercolor,
-    btnFilterInk,
-    btnFilterPrintmaking,
-    btnFilterAcrylic,
-    btnFilterAnimal,
-    btnFilterFanart,
-    btnFilterFantasy,
-    btnFilterPeople,
-    btnFilterPlant,
-    btnFilterVehicle,
+    { button: btnFilterWatercolor, filterType: 'media', filterValue: 'watercolor' },
+    { button: btnFilterInk, filterType: 'media', filterValue: 'ink' },
+    { button: btnFilterPrintmaking, filterType: 'media', filterValue: 'printmaking' },
+    { button: btnFilterAcrylic, filterType: 'media', filterValue: 'painting' },
+    { button: btnFilterAnimal, filterType: 'content', filterValue: 'animal' },
+    { button: btnFilterFanart, filterType: 'content', filterValue: 'fanart' },
+    { button: btnFilterFantasy, filterType: 'content', filterValue: 'fantasy' },
+    { button: btnFilterPeople, filterType: 'content', filterValue: 'people' },
+    { button: btnFilterPlant, filterType: 'content', filterValue: 'plant' },
+    { button: btnFilterVehicle, filterType: 'content', filterValue: 'vehicle' },
   ];
 
   const removeActiveFilters = (arr) => {
-    for (let i = 0; i < arr.length; i++) {
-      arr[i].classList.remove('active-filters');
-    }
+    arr.forEach(({ button }) => {
+      button.classList.remove('active-filters');
+    });
   };
 
   const defaultTab = (images) => {
@@ -52,16 +52,7 @@ export function filter(arts) {
 
   defaultTab(arts);
 
-  // Apply filters
-  applyFilter(btnFilterWatercolor, 'media', 'watercolor');
-  applyFilter(btnFilterInk, 'media', 'ink');
-  applyFilter(btnFilterPrintmaking, 'media', 'printmaking');
-  applyFilter(btnFilterAcrylic, 'media', 'painting');
-
-  applyFilter(btnFilterAnimal, 'content', 'animal');
-  applyFilter(btnFilterFanart, 'content', 'fanart');
-  applyFilter(btnFilterFantasy, 'content', 'fantasy');
-  applyFilter(btnFilterPeople, 'content', 'people');
-  applyFilter(btnFilterPlant, 'content', 'plant');
-  applyFilter(btnFilterVehicle, 'content', 'vehicle');
+  filterButtons.forEach(({ button, filterType, filterValue }) => {
+    applyFilter(button, filterType, filterValue);
+  });
 }

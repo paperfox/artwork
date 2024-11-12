@@ -8,6 +8,7 @@ import { filter } from './components/filters.js';
 // To Do
 // Add all art data
 // add filtering
+// fix bug of modals not working properly if a user switches tabs then opens a modal
 
 export function openTab(evt, tabName) {
   const tabContent = document.getElementsByClassName('tab-content');
