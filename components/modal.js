@@ -18,15 +18,9 @@ export function modal(currentPageArtwork, arts) {
       document.body.classList.add('no-scroll');
       modalContainer.querySelector('.modal-title').textContent = arts[artwork].title;
       modalContainer.querySelector('.modal-content').innerHTML = `
+        <p>${arts[artwork].date}  |  Media: ${arts[artwork].media.join(', ')}</p>
         <div>
           <img src="art/${arts[artwork].link}" alt="${arts[artwork].title}: ${arts[artwork].desc}" />
-        </div>
-        <div>
-          <p>${arts[artwork].date}</p>
-          <p>${arts[artwork].media}</p>
-          <p>${arts[artwork].desc}</p>
-          <p>any relevant links</p>
-          ${arts[artwork].hasOwnProperty('additionalImages') === true ? `<p>Additional images</p>` : ''}
         </div>
       `;
     });
