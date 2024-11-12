@@ -39,14 +39,12 @@ leftRail();
 
 // Main
 defaultTab(dataArt);
-
 //
 // because I frequently need to know how many art pieces I have I'm leaving this here for now
 // console.log(dataArt.length);
 
 // filters - need to loop through all filter possibilities here
 // why can I access the original list if I keep hitting next?
-const activeFilters = document.querySelectorAll('.active-filters');
 const btnFilterWatercolor = document.querySelector('#filter-watercolor');
 const btnFilterInk = document.querySelector('#filter-ink');
 const btnFilterPrintmaking = document.querySelector('#filter-printmaking');
@@ -65,6 +63,7 @@ const filterButtons = [
   btnFilterPrintmaking,
   btnFilterAcrylic,
   btnFilterAnimal,
+  btnFilterFanart,
   btnFilterFantasy,
   btnFilterPeople,
   btnFilterPlant,
