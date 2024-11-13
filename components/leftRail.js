@@ -21,48 +21,51 @@ export function leftRail() {
           likely find her playing with her dog, or out in her garden.
         </p>
       </div>
-      <ul class="social-links desktop-only">
-        <li class="m-3">
-          <a
-            href="https://www.instagram.com/paperfoxmakesart/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src="./logos/instagramlogo.svg" alt="Instagram" />
-          </a>
-        </li>
-        <li class="m-3">
-          <a href="https://cara.app/paperfox" target="_blank" rel="noreferrer">
-            <img src="./logos/cara-app-logo-circle.svg" alt="Cara" />
-          </a>
-        </li>
-        <li class="m-3">
-          <a
-            href="https://www.natickartassociation.org/nathalie-garfinkle"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src="./logos/NAA_Logo_Final_C2.png"
-              alt="Natick Art Association"
-            />
-          </a>
-        </li>
-        <li class="m-3">
-          <a href="https://github.com/paperfox" target="_blank" rel="noreferrer">
-            <img src="./logos/github-mark.svg" alt="GitHub" />
-          </a>
-        </li>
-        <li class="m-3">
-          <a
-            href="https://www.linkedin.com/in/nathaliegarfinkle/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src="./logos/linkedinlogo.svg" alt="LinkedIn" />
-          </a>
-        </li>
-      </ul>
+      <div class="desktop-only">
+        <ul  class="social-links">
+          <li class="m-3">
+            <a
+              href="https://www.instagram.com/paperfoxmakesart/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="./logos/instagramlogo.svg" alt="Instagram" />
+            </a>
+          </li>
+          <li class="m-3">
+            <a href="https://cara.app/paperfox" target="_blank" rel="noreferrer">
+              <img src="./logos/cara-app-logo-circle.svg" alt="Cara" />
+            </a>
+          </li>
+          <li class="m-3">
+            <a
+              href="https://www.natickartassociation.org/nathalie-garfinkle"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="./logos/NAA_Logo_Final_C2.png"
+                alt="Natick Art Association"
+              />
+            </a>
+          </li>
+          <li class="m-3">
+            <a href="https://github.com/paperfox" target="_blank" rel="noreferrer">
+              <img src="./logos/github-mark.svg" alt="GitHub" />
+            </a>
+          </li>
+          <li class="m-3">
+            <a
+              href="https://www.linkedin.com/in/nathaliegarfinkle/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="./logos/linkedinlogo.svg" alt="LinkedIn" />
+            </a>
+          </li>
+        </ul>
+        <p><small>© ${new Date().getFullYear()} Nathalie Garfinkle</small></p>
+      </div>
   `;
 
   containerArt.insertAdjacentHTML('afterbegin', html);

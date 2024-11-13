@@ -29,12 +29,6 @@ export function filter(arts) {
     { button: btnFilterVehicle, filterType: 'content', filterValue: 'vehicle' },
   ];
 
-  const removeActiveFilters = (arr) => {
-    arr.forEach(({ button }) => {
-      button.classList.remove('active-filters');
-    });
-  };
-
   const defaultTab = (images) => {
     const finishedWork = document.querySelector('.art-list');
     displayArt(images, finishedWork);
@@ -42,7 +36,7 @@ export function filter(arts) {
 
   const applyFilter = (button, filterType, filterValue) => {
     button.addEventListener('click', () => {
-      removeActiveFilters(filterButtons);
+      filterButtons.forEach(({ button }) => button.classList.remove('active-filters'));
       button.classList.add('active-filters');
 
       const filteredData = arts.filter((art) => art[filterType].includes(filterValue));
